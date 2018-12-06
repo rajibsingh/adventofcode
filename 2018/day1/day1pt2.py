@@ -5,7 +5,7 @@ deltas = []
 frequencies = {0}
 total = 0
 
-with io.open("day1input.txt", 'r', encoding='utf-8') as f:
+with io.open("2018/day1/day1input.txt", 'r', encoding='utf-8') as f:
     for line in f:
         delta = int(line.rstrip())
         deltas.append(delta)
