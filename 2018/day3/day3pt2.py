@@ -17,7 +17,7 @@ def claim_not_intersected(claim, matrix):
     for x in range(claim.startX, claim.startX + claim.deltaX):
         for y in range(claim.startY, claim.startY + claim.deltaY):
             claims_on_point = matrix[x][y]
-            if len(claims_on_point) != 1 or claims_on_point[0] == claim.id:
+            if len(claims_on_point) != 1 or claims_on_point[0] != claim.id:
                 return False
     return True
 
