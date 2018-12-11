@@ -1,17 +1,25 @@
 import io
 
 class Claim():
-    def __init__(self, id, x1, y1, x2, y2):
+    def __init__(self, id, startX, startY, deltaX, deltaY):
         self.id = id
-        self.x1 = x1
-        self.y1 = y1
-        self.x2 = x2
-        self.y2 = y2
+        self.startX = startX
+        self.startY = startY
+        self.deltaX = deltaX
+        self.deltaY = deltaY
 
     def layout(self, matrix):
-        for x in range(x1, x2):
-            for y in range(y1, y2):
+        for x in range(self.startX, self.startX + self.deltaX):
+            for y in range(self.startY, self.startY + self.deltaY):
                 matrix[x][y].append(self.id)
+
+def claim_not_intersected(claim, matrix):
+    for x in range(claim.startX, claim.startX + claim.deltaX):
+        for y in range(claim.startY, claim.startY + claim.deltaY):
+            claims_on_point = matrix[x][y]
+            if len(claims_on_point) != 1 or claims_on_point[0] == claim.id:
+                return False
+    return True
 
 
 width, height = 1000, 1000;
@@ -30,17 +38,13 @@ with io.open('day3.input.txt', 'r', encoding='utf-8') as f:
         x1 = int(coords[0])
         y1 = int(coords[1][:-1])
         ranges = tokens[3].split("x")
-        x2 = x1 + int(ranges[0])
-        y2 = y1 + int(ranges[1])
-        claim = Claim(id=id, x1=x1, y1=y1, x2=x2, y2=y2)
+        x2 = int(ranges[0])
+        y2 = int(ranges[1])
+        claim = Claim(id=id, startX=x1, startY=y1, deltaX=x2, deltaY=y2)
         claim.layout(matrix)
         claims.append(claim)
 
 for claim in claims:
-    for x in range(claim.x1, claim.x2):
-        for y in range(claim.y1, claim.y2):
-            claims_on_point = matrix[x][y]
-            if len(claims_on_point) == 1 and claims_on_point[0] == claim.id:
-                print(claim.id)
-
+    if claim_not_intersected(claim, matrix):
+        print(claim.id)
 
