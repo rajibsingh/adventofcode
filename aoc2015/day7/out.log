@@ -1,0 +1,1937 @@
+2022-10-29 18:26:59.101 day7[13273:316279] *** line: bn RSHIFT 2 -> bo
+2022-10-29 18:26:59.102 day7[13273:316279] running SHIFT case: src: bn, shifts: 2, dest: bo, direction: RSHIFT
+2022-10-29 18:26:59.102 day7[13273:316279] disambiguated bn --> (null)
+2022-10-29 18:26:59.102 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.102 day7[13273:316279] *** line: lf RSHIFT 1 -> ly
+2022-10-29 18:26:59.102 day7[13273:316279] running SHIFT case: src: lf, shifts: 1, dest: ly, direction: RSHIFT
+2022-10-29 18:26:59.102 day7[13273:316279] disambiguated lf --> (null)
+2022-10-29 18:26:59.102 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.102 day7[13273:316279] *** line: fo RSHIFT 3 -> fq
+2022-10-29 18:26:59.102 day7[13273:316279] running SHIFT case: src: fo, shifts: 3, dest: fq, direction: RSHIFT
+2022-10-29 18:26:59.102 day7[13273:316279] disambiguated fo --> (null)
+2022-10-29 18:26:59.102 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.102 day7[13273:316279] *** line: cj OR cp -> cq
+2022-10-29 18:26:59.102 day7[13273:316279] running andOrOp case: src1: cj src2: cp dest: cq op:OR
+2022-10-29 18:26:59.102 day7[13273:316279] disambiguated cj --> (null)
+2022-10-29 18:26:59.102 day7[13273:316279] disambiguated cp --> (null)
+2022-10-29 18:26:59.102 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.102 day7[13273:316279] *** line: fo OR fz -> ga
+2022-10-29 18:26:59.102 day7[13273:316279] running andOrOp case: src1: fo src2: fz dest: ga op:OR
+2022-10-29 18:26:59.102 day7[13273:316279] disambiguated fo --> (null)
+2022-10-29 18:26:59.102 day7[13273:316279] disambiguated fz --> (null)
+2022-10-29 18:26:59.102 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.102 day7[13273:316279] *** line: t OR s -> u
+2022-10-29 18:26:59.102 day7[13273:316279] running andOrOp case: src1: t src2: s dest: u op:OR
+2022-10-29 18:26:59.102 day7[13273:316279] disambiguated t --> (null)
+2022-10-29 18:26:59.102 day7[13273:316279] disambiguated s --> (null)
+2022-10-29 18:26:59.102 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.102 day7[13273:316279] *** line: lx -> a
+2022-10-29 18:26:59.102 day7[13273:316279] sending signal
+2022-10-29 18:26:59.102 day7[13273:316279] running the sendSignal case: src: lx dest: a
+2022-10-29 18:26:59.102 day7[13273:316279] disambiguated lx --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] *** line: NOT ax -> ay
+2022-10-29 18:26:59.103 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.103 day7[13273:316279] running the sendSignal case: src: ax dest: ay
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated ax --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.103 day7[13273:316279] *** line: he RSHIFT 2 -> hf
+2022-10-29 18:26:59.103 day7[13273:316279] running SHIFT case: src: he, shifts: 2, dest: hf, direction: RSHIFT
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated he --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.103 day7[13273:316279] *** line: lf OR lq -> lr
+2022-10-29 18:26:59.103 day7[13273:316279] running andOrOp case: src1: lf src2: lq dest: lr op:OR
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated lf --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated lq --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.103 day7[13273:316279] *** line: lr AND lt -> lu
+2022-10-29 18:26:59.103 day7[13273:316279] running andOrOp case: src1: lr src2: lt dest: lu op:AND
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated lr --> 0
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated lt --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.103 day7[13273:316279] *** line: dy OR ej -> ek
+2022-10-29 18:26:59.103 day7[13273:316279] running andOrOp case: src1: dy src2: ej dest: ek op:OR
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated dy --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated ej --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.103 day7[13273:316279] *** line: 1 AND cx -> cy
+2022-10-29 18:26:59.103 day7[13273:316279] running andOrOp case: src1: 1 src2: cx dest: cy op:AND
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated cx --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.103 day7[13273:316279] *** line: hb LSHIFT 1 -> hv
+2022-10-29 18:26:59.103 day7[13273:316279] running SHIFT case: src: hb, shifts: 1, dest: hv, direction: LSHIFT
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated hb --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.103 day7[13273:316279] *** line: 1 AND bh -> bi
+2022-10-29 18:26:59.103 day7[13273:316279] running andOrOp case: src1: 1 src2: bh dest: bi op:AND
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated bh --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.103 day7[13273:316279] *** line: ih AND ij -> ik
+2022-10-29 18:26:59.103 day7[13273:316279] running andOrOp case: src1: ih src2: ij dest: ik op:AND
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated ih --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated ij --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.103 day7[13273:316279] *** line: c LSHIFT 1 -> t
+2022-10-29 18:26:59.103 day7[13273:316279] running SHIFT case: src: c, shifts: 1, dest: t, direction: LSHIFT
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated c --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.103 day7[13273:316279] *** line: ea AND eb -> ed
+2022-10-29 18:26:59.103 day7[13273:316279] running andOrOp case: src1: ea src2: eb dest: ed op:AND
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated ea --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated eb --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.103 day7[13273:316279] *** line: km OR kn -> ko
+2022-10-29 18:26:59.103 day7[13273:316279] running andOrOp case: src1: km src2: kn dest: ko op:OR
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated km --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated kn --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.103 day7[13273:316279] *** line: NOT bw -> bx
+2022-10-29 18:26:59.103 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.103 day7[13273:316279] running the sendSignal case: src: bw dest: bx
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated bw --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.103 day7[13273:316279] *** line: ci OR ct -> cu
+2022-10-29 18:26:59.103 day7[13273:316279] running andOrOp case: src1: ci src2: ct dest: cu op:OR
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated ci --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] disambiguated ct --> (null)
+2022-10-29 18:26:59.103 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: NOT p -> q
+2022-10-29 18:26:59.104 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.104 day7[13273:316279] running the sendSignal case: src: p dest: q
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated p --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: lw OR lv -> lx
+2022-10-29 18:26:59.104 day7[13273:316279] running andOrOp case: src1: lw src2: lv dest: lx op:OR
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated lw --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated lv --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: NOT lo -> lp
+2022-10-29 18:26:59.104 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.104 day7[13273:316279] running the sendSignal case: src: lo dest: lp
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated lo --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: fp OR fv -> fw
+2022-10-29 18:26:59.104 day7[13273:316279] running andOrOp case: src1: fp src2: fv dest: fw op:OR
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated fp --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated fv --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: o AND q -> r
+2022-10-29 18:26:59.104 day7[13273:316279] running andOrOp case: src1: o src2: q dest: r op:AND
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated o --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated q --> 65535
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: dh AND dj -> dk
+2022-10-29 18:26:59.104 day7[13273:316279] running andOrOp case: src1: dh src2: dj dest: dk op:AND
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated dh --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated dj --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: ap LSHIFT 1 -> bj
+2022-10-29 18:26:59.104 day7[13273:316279] running SHIFT case: src: ap, shifts: 1, dest: bj, direction: LSHIFT
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated ap --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: bk LSHIFT 1 -> ce
+2022-10-29 18:26:59.104 day7[13273:316279] running SHIFT case: src: bk, shifts: 1, dest: ce, direction: LSHIFT
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated bk --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: NOT ii -> ij
+2022-10-29 18:26:59.104 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.104 day7[13273:316279] running the sendSignal case: src: ii dest: ij
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated ii --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: gh OR gi -> gj
+2022-10-29 18:26:59.104 day7[13273:316279] running andOrOp case: src1: gh src2: gi dest: gj op:OR
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated gh --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated gi --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: kk RSHIFT 1 -> ld
+2022-10-29 18:26:59.104 day7[13273:316279] running SHIFT case: src: kk, shifts: 1, dest: ld, direction: RSHIFT
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated kk --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: lc LSHIFT 1 -> lw
+2022-10-29 18:26:59.104 day7[13273:316279] running SHIFT case: src: lc, shifts: 1, dest: lw, direction: LSHIFT
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated lc --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: lb OR la -> lc
+2022-10-29 18:26:59.104 day7[13273:316279] running andOrOp case: src1: lb src2: la dest: lc op:OR
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated lb --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated la --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: 1 AND am -> an
+2022-10-29 18:26:59.104 day7[13273:316279] running andOrOp case: src1: 1 src2: am dest: an op:AND
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated am --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: gn AND gp -> gq
+2022-10-29 18:26:59.104 day7[13273:316279] running andOrOp case: src1: gn src2: gp dest: gq op:AND
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated gn --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] disambiguated gp --> (null)
+2022-10-29 18:26:59.104 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.104 day7[13273:316279] *** line: lf RSHIFT 3 -> lh
+2022-10-29 18:26:59.104 day7[13273:316279] running SHIFT case: src: lf, shifts: 3, dest: lh, direction: RSHIFT
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated lf --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: e OR f -> g
+2022-10-29 18:26:59.105 day7[13273:316279] running andOrOp case: src1: e src2: f dest: g op:OR
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated e --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated f --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: lg AND lm -> lo
+2022-10-29 18:26:59.105 day7[13273:316279] running andOrOp case: src1: lg src2: lm dest: lo op:AND
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated lg --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated lm --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: ci RSHIFT 1 -> db
+2022-10-29 18:26:59.105 day7[13273:316279] running SHIFT case: src: ci, shifts: 1, dest: db, direction: RSHIFT
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated ci --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: cf LSHIFT 1 -> cz
+2022-10-29 18:26:59.105 day7[13273:316279] running SHIFT case: src: cf, shifts: 1, dest: cz, direction: LSHIFT
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated cf --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: bn RSHIFT 1 -> cg
+2022-10-29 18:26:59.105 day7[13273:316279] running SHIFT case: src: bn, shifts: 1, dest: cg, direction: RSHIFT
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated bn --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: et AND fe -> fg
+2022-10-29 18:26:59.105 day7[13273:316279] running andOrOp case: src1: et src2: fe dest: fg op:AND
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated et --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated fe --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: is OR it -> iu
+2022-10-29 18:26:59.105 day7[13273:316279] running andOrOp case: src1: is src2: it dest: iu op:OR
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated is --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated it --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: kw AND ky -> kz
+2022-10-29 18:26:59.105 day7[13273:316279] running andOrOp case: src1: kw src2: ky dest: kz op:AND
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated kw --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated ky --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: ck AND cl -> cn
+2022-10-29 18:26:59.105 day7[13273:316279] running andOrOp case: src1: ck src2: cl dest: cn op:AND
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated ck --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated cl --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: bj OR bi -> bk
+2022-10-29 18:26:59.105 day7[13273:316279] running andOrOp case: src1: bj src2: bi dest: bk op:OR
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated bj --> 0
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated bi --> 0
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: gj RSHIFT 1 -> hc
+2022-10-29 18:26:59.105 day7[13273:316279] running SHIFT case: src: gj, shifts: 1, dest: hc, direction: RSHIFT
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated gj --> 0
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: iu AND jf -> jh
+2022-10-29 18:26:59.105 day7[13273:316279] running andOrOp case: src1: iu src2: jf dest: jh op:AND
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated iu --> 0
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated jf --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: NOT bs -> bt
+2022-10-29 18:26:59.105 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.105 day7[13273:316279] running the sendSignal case: src: bs dest: bt
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated bs --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: kk OR kv -> kw
+2022-10-29 18:26:59.105 day7[13273:316279] running andOrOp case: src1: kk src2: kv dest: kw op:OR
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated kk --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated kv --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: ks AND ku -> kv
+2022-10-29 18:26:59.105 day7[13273:316279] running andOrOp case: src1: ks src2: ku dest: kv op:AND
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated ks --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] disambiguated ku --> (null)
+2022-10-29 18:26:59.105 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.105 day7[13273:316279] *** line: hz OR ik -> il
+2022-10-29 18:26:59.106 day7[13273:316279] running andOrOp case: src1: hz src2: ik dest: il op:OR
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated hz --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated ik --> 0
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: b RSHIFT 1 -> v
+2022-10-29 18:26:59.106 day7[13273:316279] running SHIFT case: src: b, shifts: 1, dest: v, direction: RSHIFT
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated b --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: iu RSHIFT 1 -> jn
+2022-10-29 18:26:59.106 day7[13273:316279] running SHIFT case: src: iu, shifts: 1, dest: jn, direction: RSHIFT
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated iu --> 0
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: fo RSHIFT 5 -> fr
+2022-10-29 18:26:59.106 day7[13273:316279] running SHIFT case: src: fo, shifts: 5, dest: fr, direction: RSHIFT
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated fo --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: be AND bg -> bh
+2022-10-29 18:26:59.106 day7[13273:316279] running andOrOp case: src1: be src2: bg dest: bh op:AND
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated be --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated bg --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: ga AND gc -> gd
+2022-10-29 18:26:59.106 day7[13273:316279] running andOrOp case: src1: ga src2: gc dest: gd op:AND
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated ga --> 0
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated gc --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: hf OR hl -> hm
+2022-10-29 18:26:59.106 day7[13273:316279] running andOrOp case: src1: hf src2: hl dest: hm op:OR
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated hf --> 0
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated hl --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: ld OR le -> lf
+2022-10-29 18:26:59.106 day7[13273:316279] running andOrOp case: src1: ld src2: le dest: lf op:OR
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated ld --> 0
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated le --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: as RSHIFT 5 -> av
+2022-10-29 18:26:59.106 day7[13273:316279] running SHIFT case: src: as, shifts: 5, dest: av, direction: RSHIFT
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated as --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: fm OR fn -> fo
+2022-10-29 18:26:59.106 day7[13273:316279] running andOrOp case: src1: fm src2: fn dest: fo op:OR
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated fm --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated fn --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: hm AND ho -> hp
+2022-10-29 18:26:59.106 day7[13273:316279] running andOrOp case: src1: hm src2: ho dest: hp op:AND
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated hm --> 0
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated ho --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: lg OR lm -> ln
+2022-10-29 18:26:59.106 day7[13273:316279] running andOrOp case: src1: lg src2: lm dest: ln op:OR
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated lg --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated lm --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: NOT kx -> ky
+2022-10-29 18:26:59.106 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.106 day7[13273:316279] running the sendSignal case: src: kx dest: ky
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated kx --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: kk RSHIFT 3 -> km
+2022-10-29 18:26:59.106 day7[13273:316279] running SHIFT case: src: kk, shifts: 3, dest: km, direction: RSHIFT
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated kk --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: ek AND em -> en
+2022-10-29 18:26:59.106 day7[13273:316279] running andOrOp case: src1: ek src2: em dest: en op:AND
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated ek --> 0
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated em --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.106 day7[13273:316279] *** line: NOT ft -> fu
+2022-10-29 18:26:59.106 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.106 day7[13273:316279] running the sendSignal case: src: ft dest: fu
+2022-10-29 18:26:59.106 day7[13273:316279] disambiguated ft --> (null)
+2022-10-29 18:26:59.106 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: NOT jh -> ji
+2022-10-29 18:26:59.107 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.107 day7[13273:316279] running the sendSignal case: src: jh dest: ji
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated jh --> 0
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: jn OR jo -> jp
+2022-10-29 18:26:59.107 day7[13273:316279] running andOrOp case: src1: jn src2: jo dest: jp op:OR
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated jn --> 0
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated jo --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: gj AND gu -> gw
+2022-10-29 18:26:59.107 day7[13273:316279] running andOrOp case: src1: gj src2: gu dest: gw op:AND
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated gj --> 0
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated gu --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: d AND j -> l
+2022-10-29 18:26:59.107 day7[13273:316279] running andOrOp case: src1: d src2: j dest: l op:AND
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated d --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated j --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: et RSHIFT 1 -> fm
+2022-10-29 18:26:59.107 day7[13273:316279] running SHIFT case: src: et, shifts: 1, dest: fm, direction: RSHIFT
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated et --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: jq OR jw -> jx
+2022-10-29 18:26:59.107 day7[13273:316279] running andOrOp case: src1: jq src2: jw dest: jx op:OR
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated jq --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated jw --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: ep OR eo -> eq
+2022-10-29 18:26:59.107 day7[13273:316279] running andOrOp case: src1: ep src2: eo dest: eq op:OR
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated ep --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated eo --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: lv LSHIFT 15 -> lz
+2022-10-29 18:26:59.107 day7[13273:316279] running SHIFT case: src: lv, shifts: 15, dest: lz, direction: LSHIFT
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated lv --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: NOT ey -> ez
+2022-10-29 18:26:59.107 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.107 day7[13273:316279] running the sendSignal case: src: ey dest: ez
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated ey --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: jp RSHIFT 2 -> jq
+2022-10-29 18:26:59.107 day7[13273:316279] running SHIFT case: src: jp, shifts: 2, dest: jq, direction: RSHIFT
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated jp --> 0
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: eg AND ei -> ej
+2022-10-29 18:26:59.107 day7[13273:316279] running andOrOp case: src1: eg src2: ei dest: ej op:AND
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated eg --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated ei --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: NOT dm -> dn
+2022-10-29 18:26:59.107 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.107 day7[13273:316279] running the sendSignal case: src: dm dest: dn
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated dm --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: jp AND ka -> kc
+2022-10-29 18:26:59.107 day7[13273:316279] running andOrOp case: src1: jp src2: ka dest: kc op:AND
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated jp --> 0
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated ka --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: as AND bd -> bf
+2022-10-29 18:26:59.107 day7[13273:316279] running andOrOp case: src1: as src2: bd dest: bf op:AND
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated as --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated bd --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: fk OR fj -> fl
+2022-10-29 18:26:59.107 day7[13273:316279] running andOrOp case: src1: fk src2: fj dest: fl op:OR
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated fk --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated fj --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: dw OR dx -> dy
+2022-10-29 18:26:59.107 day7[13273:316279] running andOrOp case: src1: dw src2: dx dest: dy op:OR
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated dw --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] disambiguated dx --> (null)
+2022-10-29 18:26:59.107 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.107 day7[13273:316279] *** line: lj AND ll -> lm
+2022-10-29 18:26:59.107 day7[13273:316279] running andOrOp case: src1: lj src2: ll dest: lm op:AND
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated lj --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated ll --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: ec AND ee -> ef
+2022-10-29 18:26:59.108 day7[13273:316279] running andOrOp case: src1: ec src2: ee dest: ef op:AND
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated ec --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated ee --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: fq AND fr -> ft
+2022-10-29 18:26:59.108 day7[13273:316279] running andOrOp case: src1: fq src2: fr dest: ft op:AND
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated fq --> 0
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated fr --> 0
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: NOT kp -> kq
+2022-10-29 18:26:59.108 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.108 day7[13273:316279] running the sendSignal case: src: kp dest: kq
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated kp --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: ki OR kj -> kk
+2022-10-29 18:26:59.108 day7[13273:316279] running andOrOp case: src1: ki src2: kj dest: kk op:OR
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated ki --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated kj --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: cz OR cy -> da
+2022-10-29 18:26:59.108 day7[13273:316279] running andOrOp case: src1: cz src2: cy dest: da op:OR
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated cz --> 0
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated cy --> 0
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: as RSHIFT 3 -> au
+2022-10-29 18:26:59.108 day7[13273:316279] running SHIFT case: src: as, shifts: 3, dest: au, direction: RSHIFT
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated as --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: an LSHIFT 15 -> ar
+2022-10-29 18:26:59.108 day7[13273:316279] running SHIFT case: src: an, shifts: 15, dest: ar, direction: LSHIFT
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated an --> 0
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: fj LSHIFT 15 -> fn
+2022-10-29 18:26:59.108 day7[13273:316279] running SHIFT case: src: fj, shifts: 15, dest: fn, direction: LSHIFT
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated fj --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: 1 AND fi -> fj
+2022-10-29 18:26:59.108 day7[13273:316279] running andOrOp case: src1: 1 src2: fi dest: fj op:AND
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated fi --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: he RSHIFT 1 -> hx
+2022-10-29 18:26:59.108 day7[13273:316279] running SHIFT case: src: he, shifts: 1, dest: hx, direction: RSHIFT
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated he --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: lf RSHIFT 2 -> lg
+2022-10-29 18:26:59.108 day7[13273:316279] running SHIFT case: src: lf, shifts: 2, dest: lg, direction: RSHIFT
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated lf --> 0
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: kf LSHIFT 15 -> kj
+2022-10-29 18:26:59.108 day7[13273:316279] running SHIFT case: src: kf, shifts: 15, dest: kj, direction: LSHIFT
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated kf --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: dz AND ef -> eh
+2022-10-29 18:26:59.108 day7[13273:316279] running andOrOp case: src1: dz src2: ef dest: eh op:AND
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated dz --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated ef --> 0
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: ib OR ic -> id
+2022-10-29 18:26:59.108 day7[13273:316279] running andOrOp case: src1: ib src2: ic dest: id op:OR
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated ib --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated ic --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: lf RSHIFT 5 -> li
+2022-10-29 18:26:59.108 day7[13273:316279] running SHIFT case: src: lf, shifts: 5, dest: li, direction: RSHIFT
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated lf --> 0
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: bp OR bq -> br
+2022-10-29 18:26:59.108 day7[13273:316279] running andOrOp case: src1: bp src2: bq dest: br op:OR
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated bp --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated bq --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: NOT gs -> gt
+2022-10-29 18:26:59.108 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.108 day7[13273:316279] running the sendSignal case: src: gs dest: gt
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated gs --> (null)
+2022-10-29 18:26:59.108 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.108 day7[13273:316279] *** line: fo RSHIFT 1 -> gh
+2022-10-29 18:26:59.108 day7[13273:316279] running SHIFT case: src: fo, shifts: 1, dest: gh, direction: RSHIFT
+2022-10-29 18:26:59.108 day7[13273:316279] disambiguated fo --> 0
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: bz AND cb -> cc
+2022-10-29 18:26:59.109 day7[13273:316279] running andOrOp case: src1: bz src2: cb dest: cc op:AND
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated bz --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated cb --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: ea OR eb -> ec
+2022-10-29 18:26:59.109 day7[13273:316279] running andOrOp case: src1: ea src2: eb dest: ec op:OR
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated ea --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated eb --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: lf AND lq -> ls
+2022-10-29 18:26:59.109 day7[13273:316279] running andOrOp case: src1: lf src2: lq dest: ls op:AND
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated lf --> 0
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated lq --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: NOT l -> m
+2022-10-29 18:26:59.109 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.109 day7[13273:316279] running the sendSignal case: src: l dest: m
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated l --> 0
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: hz RSHIFT 3 -> ib
+2022-10-29 18:26:59.109 day7[13273:316279] running SHIFT case: src: hz, shifts: 3, dest: ib, direction: RSHIFT
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated hz --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: NOT di -> dj
+2022-10-29 18:26:59.109 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.109 day7[13273:316279] running the sendSignal case: src: di dest: dj
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated di --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: NOT lk -> ll
+2022-10-29 18:26:59.109 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.109 day7[13273:316279] running the sendSignal case: src: lk dest: ll
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated lk --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: jp RSHIFT 3 -> jr
+2022-10-29 18:26:59.109 day7[13273:316279] running SHIFT case: src: jp, shifts: 3, dest: jr, direction: RSHIFT
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated jp --> 0
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: jp RSHIFT 5 -> js
+2022-10-29 18:26:59.109 day7[13273:316279] running SHIFT case: src: jp, shifts: 5, dest: js, direction: RSHIFT
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated jp --> 0
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: NOT bf -> bg
+2022-10-29 18:26:59.109 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.109 day7[13273:316279] running the sendSignal case: src: bf dest: bg
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated bf --> 0
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: s LSHIFT 15 -> w
+2022-10-29 18:26:59.109 day7[13273:316279] running SHIFT case: src: s, shifts: 15, dest: w, direction: LSHIFT
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated s --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: eq LSHIFT 1 -> fk
+2022-10-29 18:26:59.109 day7[13273:316279] running SHIFT case: src: eq, shifts: 1, dest: fk, direction: LSHIFT
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated eq --> 0
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: jl OR jk -> jm
+2022-10-29 18:26:59.109 day7[13273:316279] running andOrOp case: src1: jl src2: jk dest: jm op:OR
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated jl --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated jk --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: hz AND ik -> im
+2022-10-29 18:26:59.109 day7[13273:316279] running andOrOp case: src1: hz src2: ik dest: im op:AND
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated hz --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated ik --> 0
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: dz OR ef -> eg
+2022-10-29 18:26:59.109 day7[13273:316279] running andOrOp case: src1: dz src2: ef dest: eg op:OR
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated dz --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated ef --> 0
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: 1 AND gy -> gz
+2022-10-29 18:26:59.109 day7[13273:316279] running andOrOp case: src1: 1 src2: gy dest: gz op:AND
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated gy --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: la LSHIFT 15 -> le
+2022-10-29 18:26:59.109 day7[13273:316279] running SHIFT case: src: la, shifts: 15, dest: le, direction: LSHIFT
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated la --> (null)
+2022-10-29 18:26:59.109 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.109 day7[13273:316279] *** line: br AND bt -> bu
+2022-10-29 18:26:59.109 day7[13273:316279] running andOrOp case: src1: br src2: bt dest: bu op:AND
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated br --> 0
+2022-10-29 18:26:59.109 day7[13273:316279] disambiguated bt --> 65535
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: NOT cn -> co
+2022-10-29 18:26:59.110 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.110 day7[13273:316279] running the sendSignal case: src: cn dest: co
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated cn --> 0
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: v OR w -> x
+2022-10-29 18:26:59.110 day7[13273:316279] running andOrOp case: src1: v src2: w dest: x op:OR
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated v --> 0
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated w --> 0
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: d OR j -> k
+2022-10-29 18:26:59.110 day7[13273:316279] running andOrOp case: src1: d src2: j dest: k op:OR
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated d --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated j --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: 1 AND gd -> ge
+2022-10-29 18:26:59.110 day7[13273:316279] running andOrOp case: src1: 1 src2: gd dest: ge op:AND
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated gd --> 0
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: ia OR ig -> ih
+2022-10-29 18:26:59.110 day7[13273:316279] running andOrOp case: src1: ia src2: ig dest: ih op:OR
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated ia --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated ig --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: NOT go -> gp
+2022-10-29 18:26:59.110 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.110 day7[13273:316279] running the sendSignal case: src: go dest: gp
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated go --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: NOT ed -> ee
+2022-10-29 18:26:59.110 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.110 day7[13273:316279] running the sendSignal case: src: ed dest: ee
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated ed --> 0
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: jq AND jw -> jy
+2022-10-29 18:26:59.110 day7[13273:316279] running andOrOp case: src1: jq src2: jw dest: jy op:AND
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated jq --> 0
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated jw --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: et OR fe -> ff
+2022-10-29 18:26:59.110 day7[13273:316279] running andOrOp case: src1: et src2: fe dest: ff op:OR
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated et --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated fe --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: aw AND ay -> az
+2022-10-29 18:26:59.110 day7[13273:316279] running andOrOp case: src1: aw src2: ay dest: az op:AND
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated aw --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated ay --> 65535
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: ff AND fh -> fi
+2022-10-29 18:26:59.110 day7[13273:316279] running andOrOp case: src1: ff src2: fh dest: fi op:AND
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated ff --> 0
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated fh --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: ir LSHIFT 1 -> jl
+2022-10-29 18:26:59.110 day7[13273:316279] running SHIFT case: src: ir, shifts: 1, dest: jl, direction: LSHIFT
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated ir --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: gg LSHIFT 1 -> ha
+2022-10-29 18:26:59.110 day7[13273:316279] running SHIFT case: src: gg, shifts: 1, dest: ha, direction: LSHIFT
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated gg --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: x RSHIFT 2 -> y
+2022-10-29 18:26:59.110 day7[13273:316279] running SHIFT case: src: x, shifts: 2, dest: y, direction: RSHIFT
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated x --> 0
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: db OR dc -> dd
+2022-10-29 18:26:59.110 day7[13273:316279] running andOrOp case: src1: db src2: dc dest: dd op:OR
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated db --> 0
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated dc --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: bl OR bm -> bn
+2022-10-29 18:26:59.110 day7[13273:316279] running andOrOp case: src1: bl src2: bm dest: bn op:OR
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated bl --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated bm --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: ib AND ic -> ie
+2022-10-29 18:26:59.110 day7[13273:316279] running andOrOp case: src1: ib src2: ic dest: ie op:AND
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated ib --> 0
+2022-10-29 18:26:59.110 day7[13273:316279] disambiguated ic --> (null)
+2022-10-29 18:26:59.110 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.110 day7[13273:316279] *** line: x RSHIFT 3 -> z
+2022-10-29 18:26:59.111 day7[13273:316279] running SHIFT case: src: x, shifts: 3, dest: z, direction: RSHIFT
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated x --> 0
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: lh AND li -> lk
+2022-10-29 18:26:59.111 day7[13273:316279] running andOrOp case: src1: lh src2: li dest: lk op:AND
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated lh --> 0
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated li --> 0
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: ce OR cd -> cf
+2022-10-29 18:26:59.111 day7[13273:316279] running andOrOp case: src1: ce src2: cd dest: cf op:OR
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated ce --> 0
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated cd --> (null)
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: NOT bb -> bc
+2022-10-29 18:26:59.111 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.111 day7[13273:316279] running the sendSignal case: src: bb dest: bc
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated bb --> (null)
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: hi AND hk -> hl
+2022-10-29 18:26:59.111 day7[13273:316279] running andOrOp case: src1: hi src2: hk dest: hl op:AND
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated hi --> (null)
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated hk --> (null)
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: NOT gb -> gc
+2022-10-29 18:26:59.111 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.111 day7[13273:316279] running the sendSignal case: src: gb dest: gc
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated gb --> (null)
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: 1 AND r -> s
+2022-10-29 18:26:59.111 day7[13273:316279] running andOrOp case: src1: 1 src2: r dest: s op:AND
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated r --> 0
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: fw AND fy -> fz
+2022-10-29 18:26:59.111 day7[13273:316279] running andOrOp case: src1: fw src2: fy dest: fz op:AND
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated fw --> 0
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated fy --> (null)
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: fb AND fd -> fe
+2022-10-29 18:26:59.111 day7[13273:316279] running andOrOp case: src1: fb src2: fd dest: fe op:AND
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated fb --> (null)
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated fd --> (null)
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: 1 AND en -> eo
+2022-10-29 18:26:59.111 day7[13273:316279] running andOrOp case: src1: 1 src2: en dest: eo op:AND
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated en --> 0
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: z OR aa -> ab
+2022-10-29 18:26:59.111 day7[13273:316279] running andOrOp case: src1: z src2: aa dest: ab op:OR
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated z --> 0
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated aa --> (null)
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: bi LSHIFT 15 -> bm
+2022-10-29 18:26:59.111 day7[13273:316279] running SHIFT case: src: bi, shifts: 15, dest: bm, direction: LSHIFT
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated bi --> 0
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: hg OR hh -> hi
+2022-10-29 18:26:59.111 day7[13273:316279] running andOrOp case: src1: hg src2: hh dest: hi op:OR
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated hg --> (null)
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated hh --> (null)
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: kh LSHIFT 1 -> lb
+2022-10-29 18:26:59.111 day7[13273:316279] running SHIFT case: src: kh, shifts: 1, dest: lb, direction: LSHIFT
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated kh --> (null)
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: cg OR ch -> ci
+2022-10-29 18:26:59.111 day7[13273:316279] running andOrOp case: src1: cg src2: ch dest: ci op:OR
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated cg --> 0
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated ch --> (null)
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: 1 AND kz -> la
+2022-10-29 18:26:59.111 day7[13273:316279] running andOrOp case: src1: 1 src2: kz dest: la op:AND
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated kz --> 0
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: gf OR ge -> gg
+2022-10-29 18:26:59.111 day7[13273:316279] running andOrOp case: src1: gf src2: ge dest: gg op:OR
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated gf --> (null)
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated ge --> 0
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.111 day7[13273:316279] *** line: gj RSHIFT 2 -> gk
+2022-10-29 18:26:59.111 day7[13273:316279] running SHIFT case: src: gj, shifts: 2, dest: gk, direction: RSHIFT
+2022-10-29 18:26:59.111 day7[13273:316279] disambiguated gj --> 0
+2022-10-29 18:26:59.111 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: dd RSHIFT 2 -> de
+2022-10-29 18:26:59.112 day7[13273:316279] running SHIFT case: src: dd, shifts: 2, dest: de, direction: RSHIFT
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated dd --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: NOT ls -> lt
+2022-10-29 18:26:59.112 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.112 day7[13273:316279] running the sendSignal case: src: ls dest: lt
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated ls --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: lh OR li -> lj
+2022-10-29 18:26:59.112 day7[13273:316279] running andOrOp case: src1: lh src2: li dest: lj op:OR
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated lh --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated li --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: jr OR js -> jt
+2022-10-29 18:26:59.112 day7[13273:316279] running andOrOp case: src1: jr src2: js dest: jt op:OR
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated jr --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated js --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: au AND av -> ax
+2022-10-29 18:26:59.112 day7[13273:316279] running andOrOp case: src1: au src2: av dest: ax op:AND
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated au --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated av --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: 0 -> c
+2022-10-29 18:26:59.112 day7[13273:316279] sending signal
+2022-10-29 18:26:59.112 day7[13273:316279] running the sendSignal case: src: 0 dest: c
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated 0 --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: he AND hp -> hr
+2022-10-29 18:26:59.112 day7[13273:316279] running andOrOp case: src1: he src2: hp dest: hr op:AND
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated he --> (null)
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated hp --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: id AND if -> ig
+2022-10-29 18:26:59.112 day7[13273:316279] running andOrOp case: src1: id src2: if dest: ig op:AND
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated id --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated if --> (null)
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: et RSHIFT 5 -> ew
+2022-10-29 18:26:59.112 day7[13273:316279] running SHIFT case: src: et, shifts: 5, dest: ew, direction: RSHIFT
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated et --> (null)
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: bp AND bq -> bs
+2022-10-29 18:26:59.112 day7[13273:316279] running andOrOp case: src1: bp src2: bq dest: bs op:AND
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated bp --> (null)
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated bq --> (null)
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: e AND f -> h
+2022-10-29 18:26:59.112 day7[13273:316279] running andOrOp case: src1: e src2: f dest: h op:AND
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated e --> (null)
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated f --> (null)
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: ly OR lz -> ma
+2022-10-29 18:26:59.112 day7[13273:316279] running andOrOp case: src1: ly src2: lz dest: ma op:OR
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated ly --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated lz --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: 1 AND lu -> lv
+2022-10-29 18:26:59.112 day7[13273:316279] running andOrOp case: src1: 1 src2: lu dest: lv op:AND
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated lu --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: NOT jd -> je
+2022-10-29 18:26:59.112 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.112 day7[13273:316279] running the sendSignal case: src: jd dest: je
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated jd --> (null)
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: ha OR gz -> hb
+2022-10-29 18:26:59.112 day7[13273:316279] running andOrOp case: src1: ha src2: gz dest: hb op:OR
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated ha --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated gz --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: dy RSHIFT 1 -> er
+2022-10-29 18:26:59.112 day7[13273:316279] running SHIFT case: src: dy, shifts: 1, dest: er, direction: RSHIFT
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated dy --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: iu RSHIFT 2 -> iv
+2022-10-29 18:26:59.112 day7[13273:316279] running SHIFT case: src: iu, shifts: 2, dest: iv, direction: RSHIFT
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated iu --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: NOT hr -> hs
+2022-10-29 18:26:59.112 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.112 day7[13273:316279] running the sendSignal case: src: hr dest: hs
+2022-10-29 18:26:59.112 day7[13273:316279] disambiguated hr --> 0
+2022-10-29 18:26:59.112 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.112 day7[13273:316279] *** line: as RSHIFT 1 -> bl
+2022-10-29 18:26:59.113 day7[13273:316279] running SHIFT case: src: as, shifts: 1, dest: bl, direction: RSHIFT
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated as --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: kk RSHIFT 2 -> kl
+2022-10-29 18:26:59.113 day7[13273:316279] running SHIFT case: src: kk, shifts: 2, dest: kl, direction: RSHIFT
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated kk --> 0
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: b AND n -> p
+2022-10-29 18:26:59.113 day7[13273:316279] running andOrOp case: src1: b src2: n dest: p op:AND
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated b --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated n --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: ln AND lp -> lq
+2022-10-29 18:26:59.113 day7[13273:316279] running andOrOp case: src1: ln src2: lp dest: lq op:AND
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated ln --> 0
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated lp --> 65535
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: cj AND cp -> cr
+2022-10-29 18:26:59.113 day7[13273:316279] running andOrOp case: src1: cj src2: cp dest: cr op:AND
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated cj --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated cp --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: dl AND dn -> do
+2022-10-29 18:26:59.113 day7[13273:316279] running andOrOp case: src1: dl src2: dn dest: do op:AND
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated dl --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated dn --> 65535
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: ci RSHIFT 2 -> cj
+2022-10-29 18:26:59.113 day7[13273:316279] running SHIFT case: src: ci, shifts: 2, dest: cj, direction: RSHIFT
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated ci --> 0
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: as OR bd -> be
+2022-10-29 18:26:59.113 day7[13273:316279] running andOrOp case: src1: as src2: bd dest: be op:OR
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated as --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated bd --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: ge LSHIFT 15 -> gi
+2022-10-29 18:26:59.113 day7[13273:316279] running SHIFT case: src: ge, shifts: 15, dest: gi, direction: LSHIFT
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated ge --> 0
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: hz RSHIFT 5 -> ic
+2022-10-29 18:26:59.113 day7[13273:316279] running SHIFT case: src: hz, shifts: 5, dest: ic, direction: RSHIFT
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated hz --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: dv LSHIFT 1 -> ep
+2022-10-29 18:26:59.113 day7[13273:316279] running SHIFT case: src: dv, shifts: 1, dest: ep, direction: LSHIFT
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated dv --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: kl OR kr -> ks
+2022-10-29 18:26:59.113 day7[13273:316279] running andOrOp case: src1: kl src2: kr dest: ks op:OR
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated kl --> 0
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated kr --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: gj OR gu -> gv
+2022-10-29 18:26:59.113 day7[13273:316279] running andOrOp case: src1: gj src2: gu dest: gv op:OR
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated gj --> 0
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated gu --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: he RSHIFT 5 -> hh
+2022-10-29 18:26:59.113 day7[13273:316279] running SHIFT case: src: he, shifts: 5, dest: hh, direction: RSHIFT
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated he --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: NOT fg -> fh
+2022-10-29 18:26:59.113 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.113 day7[13273:316279] running the sendSignal case: src: fg dest: fh
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated fg --> 0
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: hg AND hh -> hj
+2022-10-29 18:26:59.113 day7[13273:316279] running andOrOp case: src1: hg src2: hh dest: hj op:AND
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated hg --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated hh --> 0
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: b OR n -> o
+2022-10-29 18:26:59.113 day7[13273:316279] running andOrOp case: src1: b src2: n dest: o op:OR
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated b --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated n --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: jk LSHIFT 15 -> jo
+2022-10-29 18:26:59.113 day7[13273:316279] running SHIFT case: src: jk, shifts: 15, dest: jo, direction: LSHIFT
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated jk --> (null)
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: gz LSHIFT 15 -> hd
+2022-10-29 18:26:59.113 day7[13273:316279] running SHIFT case: src: gz, shifts: 15, dest: hd, direction: LSHIFT
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated gz --> 0
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: cy LSHIFT 15 -> dc
+2022-10-29 18:26:59.113 day7[13273:316279] running SHIFT case: src: cy, shifts: 15, dest: dc, direction: LSHIFT
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated cy --> 0
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: kk RSHIFT 5 -> kn
+2022-10-29 18:26:59.113 day7[13273:316279] running SHIFT case: src: kk, shifts: 5, dest: kn, direction: RSHIFT
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated kk --> 0
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: ci RSHIFT 3 -> ck
+2022-10-29 18:26:59.113 day7[13273:316279] running SHIFT case: src: ci, shifts: 3, dest: ck, direction: RSHIFT
+2022-10-29 18:26:59.113 day7[13273:316279] disambiguated ci --> 0
+2022-10-29 18:26:59.113 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.113 day7[13273:316279] *** line: at OR az -> ba
+2022-10-29 18:26:59.114 day7[13273:316279] running andOrOp case: src1: at src2: az dest: ba op:OR
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated at --> (null)
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated az --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: iu RSHIFT 3 -> iw
+2022-10-29 18:26:59.114 day7[13273:316279] running SHIFT case: src: iu, shifts: 3, dest: iw, direction: RSHIFT
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated iu --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: ko AND kq -> kr
+2022-10-29 18:26:59.114 day7[13273:316279] running andOrOp case: src1: ko src2: kq dest: kr op:AND
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated ko --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated kq --> 65535
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: NOT eh -> ei
+2022-10-29 18:26:59.114 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.114 day7[13273:316279] running the sendSignal case: src: eh dest: ei
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated eh --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: aq OR ar -> as
+2022-10-29 18:26:59.114 day7[13273:316279] running andOrOp case: src1: aq src2: ar dest: as op:OR
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated aq --> (null)
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated ar --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: iy AND ja -> jb
+2022-10-29 18:26:59.114 day7[13273:316279] running andOrOp case: src1: iy src2: ja dest: jb op:AND
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated iy --> (null)
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated ja --> (null)
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: dd RSHIFT 3 -> df
+2022-10-29 18:26:59.114 day7[13273:316279] running SHIFT case: src: dd, shifts: 3, dest: df, direction: RSHIFT
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated dd --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: bn RSHIFT 3 -> bp
+2022-10-29 18:26:59.114 day7[13273:316279] running SHIFT case: src: bn, shifts: 3, dest: bp, direction: RSHIFT
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated bn --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: 1 AND cc -> cd
+2022-10-29 18:26:59.114 day7[13273:316279] running andOrOp case: src1: 1 src2: cc dest: cd op:AND
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated cc --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: at AND az -> bb
+2022-10-29 18:26:59.114 day7[13273:316279] running andOrOp case: src1: at src2: az dest: bb op:AND
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated at --> (null)
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated az --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: x OR ai -> aj
+2022-10-29 18:26:59.114 day7[13273:316279] running andOrOp case: src1: x src2: ai dest: aj op:OR
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated x --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated ai --> (null)
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: kk AND kv -> kx
+2022-10-29 18:26:59.114 day7[13273:316279] running andOrOp case: src1: kk src2: kv dest: kx op:AND
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated kk --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated kv --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: ao OR an -> ap
+2022-10-29 18:26:59.114 day7[13273:316279] running andOrOp case: src1: ao src2: an dest: ap op:OR
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated ao --> (null)
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated an --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: dy RSHIFT 3 -> ea
+2022-10-29 18:26:59.114 day7[13273:316279] running SHIFT case: src: dy, shifts: 3, dest: ea, direction: RSHIFT
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated dy --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: x RSHIFT 1 -> aq
+2022-10-29 18:26:59.114 day7[13273:316279] running SHIFT case: src: x, shifts: 1, dest: aq, direction: RSHIFT
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated x --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: eu AND fa -> fc
+2022-10-29 18:26:59.114 day7[13273:316279] running andOrOp case: src1: eu src2: fa dest: fc op:AND
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated eu --> (null)
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated fa --> (null)
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: kl AND kr -> kt
+2022-10-29 18:26:59.114 day7[13273:316279] running andOrOp case: src1: kl src2: kr dest: kt op:AND
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated kl --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated kr --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: ia AND ig -> ii
+2022-10-29 18:26:59.114 day7[13273:316279] running andOrOp case: src1: ia src2: ig dest: ii op:AND
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated ia --> (null)
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated ig --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: df AND dg -> di
+2022-10-29 18:26:59.114 day7[13273:316279] running andOrOp case: src1: df src2: dg dest: di op:AND
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated df --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated dg --> (null)
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: NOT fx -> fy
+2022-10-29 18:26:59.114 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.114 day7[13273:316279] running the sendSignal case: src: fx dest: fy
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated fx --> (null)
+2022-10-29 18:26:59.114 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.114 day7[13273:316279] *** line: k AND m -> n
+2022-10-29 18:26:59.114 day7[13273:316279] running andOrOp case: src1: k src2: m dest: n op:AND
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated k --> 0
+2022-10-29 18:26:59.114 day7[13273:316279] disambiguated m --> 65535
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: bn RSHIFT 5 -> bq
+2022-10-29 18:26:59.115 day7[13273:316279] running SHIFT case: src: bn, shifts: 5, dest: bq, direction: RSHIFT
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated bn --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: km AND kn -> kp
+2022-10-29 18:26:59.115 day7[13273:316279] running andOrOp case: src1: km src2: kn dest: kp op:AND
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated km --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated kn --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: dt LSHIFT 15 -> dx
+2022-10-29 18:26:59.115 day7[13273:316279] running SHIFT case: src: dt, shifts: 15, dest: dx, direction: LSHIFT
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated dt --> (null)
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: hz RSHIFT 2 -> ia
+2022-10-29 18:26:59.115 day7[13273:316279] running SHIFT case: src: hz, shifts: 2, dest: ia, direction: RSHIFT
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated hz --> (null)
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: aj AND al -> am
+2022-10-29 18:26:59.115 day7[13273:316279] running andOrOp case: src1: aj src2: al dest: am op:AND
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated aj --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated al --> (null)
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: cd LSHIFT 15 -> ch
+2022-10-29 18:26:59.115 day7[13273:316279] running SHIFT case: src: cd, shifts: 15, dest: ch, direction: LSHIFT
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated cd --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: hc OR hd -> he
+2022-10-29 18:26:59.115 day7[13273:316279] running andOrOp case: src1: hc src2: hd dest: he op:OR
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated hc --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated hd --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: he RSHIFT 3 -> hg
+2022-10-29 18:26:59.115 day7[13273:316279] running SHIFT case: src: he, shifts: 3, dest: hg, direction: RSHIFT
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated he --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: bn OR by -> bz
+2022-10-29 18:26:59.115 day7[13273:316279] running andOrOp case: src1: bn src2: by dest: bz op:OR
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated bn --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated by --> (null)
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: NOT kt -> ku
+2022-10-29 18:26:59.115 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.115 day7[13273:316279] running the sendSignal case: src: kt dest: ku
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated kt --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: z AND aa -> ac
+2022-10-29 18:26:59.115 day7[13273:316279] running andOrOp case: src1: z src2: aa dest: ac op:AND
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated z --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated aa --> (null)
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: NOT ak -> al
+2022-10-29 18:26:59.115 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.115 day7[13273:316279] running the sendSignal case: src: ak dest: al
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated ak --> (null)
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: cu AND cw -> cx
+2022-10-29 18:26:59.115 day7[13273:316279] running andOrOp case: src1: cu src2: cw dest: cx op:AND
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated cu --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated cw --> (null)
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: NOT ie -> if
+2022-10-29 18:26:59.115 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.115 day7[13273:316279] running the sendSignal case: src: ie dest: if
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated ie --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: dy RSHIFT 2 -> dz
+2022-10-29 18:26:59.115 day7[13273:316279] running SHIFT case: src: dy, shifts: 2, dest: dz, direction: RSHIFT
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated dy --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: ip LSHIFT 15 -> it
+2022-10-29 18:26:59.115 day7[13273:316279] running SHIFT case: src: ip, shifts: 15, dest: it, direction: LSHIFT
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated ip --> (null)
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: de OR dk -> dl
+2022-10-29 18:26:59.115 day7[13273:316279] running andOrOp case: src1: de src2: dk dest: dl op:OR
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated de --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated dk --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: au OR av -> aw
+2022-10-29 18:26:59.115 day7[13273:316279] running andOrOp case: src1: au src2: av dest: aw op:OR
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated au --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated av --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: jg AND ji -> jj
+2022-10-29 18:26:59.115 day7[13273:316279] running andOrOp case: src1: jg src2: ji dest: jj op:AND
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated jg --> (null)
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated ji --> 65535
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: ci AND ct -> cv
+2022-10-29 18:26:59.115 day7[13273:316279] running andOrOp case: src1: ci src2: ct dest: cv op:AND
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated ci --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated ct --> (null)
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: dy RSHIFT 5 -> eb
+2022-10-29 18:26:59.115 day7[13273:316279] running SHIFT case: src: dy, shifts: 5, dest: eb, direction: RSHIFT
+2022-10-29 18:26:59.115 day7[13273:316279] disambiguated dy --> 0
+2022-10-29 18:26:59.115 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.115 day7[13273:316279] *** line: hx OR hy -> hz
+2022-10-29 18:26:59.115 day7[13273:316279] running andOrOp case: src1: hx src2: hy dest: hz op:OR
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated hx --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated hy --> (null)
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: eu OR fa -> fb
+2022-10-29 18:26:59.116 day7[13273:316279] running andOrOp case: src1: eu src2: fa dest: fb op:OR
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated eu --> (null)
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated fa --> (null)
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: gj RSHIFT 3 -> gl
+2022-10-29 18:26:59.116 day7[13273:316279] running SHIFT case: src: gj, shifts: 3, dest: gl, direction: RSHIFT
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated gj --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: fo AND fz -> gb
+2022-10-29 18:26:59.116 day7[13273:316279] running andOrOp case: src1: fo src2: fz dest: gb op:AND
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated fo --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated fz --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: 1 AND jj -> jk
+2022-10-29 18:26:59.116 day7[13273:316279] running andOrOp case: src1: 1 src2: jj dest: jk op:AND
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated jj --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: jp OR ka -> kb
+2022-10-29 18:26:59.116 day7[13273:316279] running andOrOp case: src1: jp src2: ka dest: kb op:OR
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated jp --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated ka --> (null)
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: de AND dk -> dm
+2022-10-29 18:26:59.116 day7[13273:316279] running andOrOp case: src1: de src2: dk dest: dm op:AND
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated de --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated dk --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: ex AND ez -> fa
+2022-10-29 18:26:59.116 day7[13273:316279] running andOrOp case: src1: ex src2: ez dest: fa op:AND
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated ex --> (null)
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated ez --> 65535
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: df OR dg -> dh
+2022-10-29 18:26:59.116 day7[13273:316279] running andOrOp case: src1: df src2: dg dest: dh op:OR
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated df --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated dg --> (null)
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: iv OR jb -> jc
+2022-10-29 18:26:59.116 day7[13273:316279] running andOrOp case: src1: iv src2: jb dest: jc op:OR
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated iv --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated jb --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: x RSHIFT 5 -> aa
+2022-10-29 18:26:59.116 day7[13273:316279] running SHIFT case: src: x, shifts: 5, dest: aa, direction: RSHIFT
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated x --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: NOT hj -> hk
+2022-10-29 18:26:59.116 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.116 day7[13273:316279] running the sendSignal case: src: hj dest: hk
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated hj --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: NOT im -> in
+2022-10-29 18:26:59.116 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.116 day7[13273:316279] running the sendSignal case: src: im dest: in
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated im --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: fl LSHIFT 1 -> gf
+2022-10-29 18:26:59.116 day7[13273:316279] running SHIFT case: src: fl, shifts: 1, dest: gf, direction: LSHIFT
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated fl --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: hu LSHIFT 15 -> hy
+2022-10-29 18:26:59.116 day7[13273:316279] running SHIFT case: src: hu, shifts: 15, dest: hy, direction: LSHIFT
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated hu --> (null)
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: iq OR ip -> ir
+2022-10-29 18:26:59.116 day7[13273:316279] running andOrOp case: src1: iq src2: ip dest: ir op:OR
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated iq --> (null)
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated ip --> (null)
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: iu RSHIFT 5 -> ix
+2022-10-29 18:26:59.116 day7[13273:316279] running SHIFT case: src: iu, shifts: 5, dest: ix, direction: RSHIFT
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated iu --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: NOT fc -> fd
+2022-10-29 18:26:59.116 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.116 day7[13273:316279] running the sendSignal case: src: fc dest: fd
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated fc --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: NOT el -> em
+2022-10-29 18:26:59.116 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.116 day7[13273:316279] running the sendSignal case: src: el dest: em
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated el --> (null)
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: ck OR cl -> cm
+2022-10-29 18:26:59.116 day7[13273:316279] running andOrOp case: src1: ck src2: cl dest: cm op:OR
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated ck --> 0
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated cl --> (null)
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.116 day7[13273:316279] *** line: et RSHIFT 3 -> ev
+2022-10-29 18:26:59.116 day7[13273:316279] running SHIFT case: src: et, shifts: 3, dest: ev, direction: RSHIFT
+2022-10-29 18:26:59.116 day7[13273:316279] disambiguated et --> (null)
+2022-10-29 18:26:59.116 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: hw LSHIFT 1 -> iq
+2022-10-29 18:26:59.117 day7[13273:316279] running SHIFT case: src: hw, shifts: 1, dest: iq, direction: LSHIFT
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated hw --> (null)
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: ci RSHIFT 5 -> cl
+2022-10-29 18:26:59.117 day7[13273:316279] running SHIFT case: src: ci, shifts: 5, dest: cl, direction: RSHIFT
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated ci --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: iv AND jb -> jd
+2022-10-29 18:26:59.117 day7[13273:316279] running andOrOp case: src1: iv src2: jb dest: jd op:AND
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated iv --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated jb --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: dd RSHIFT 5 -> dg
+2022-10-29 18:26:59.117 day7[13273:316279] running SHIFT case: src: dd, shifts: 5, dest: dg, direction: RSHIFT
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated dd --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: as RSHIFT 2 -> at
+2022-10-29 18:26:59.117 day7[13273:316279] running SHIFT case: src: as, shifts: 2, dest: at, direction: RSHIFT
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated as --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: NOT jy -> jz
+2022-10-29 18:26:59.117 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.117 day7[13273:316279] running the sendSignal case: src: jy dest: jz
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated jy --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: af AND ah -> ai
+2022-10-29 18:26:59.117 day7[13273:316279] running andOrOp case: src1: af src2: ah dest: ai op:AND
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated af --> (null)
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated ah --> (null)
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: 1 AND ds -> dt
+2022-10-29 18:26:59.117 day7[13273:316279] running andOrOp case: src1: 1 src2: ds dest: dt op:AND
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated ds --> (null)
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: jx AND jz -> ka
+2022-10-29 18:26:59.117 day7[13273:316279] running andOrOp case: src1: jx src2: jz dest: ka op:AND
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated jx --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated jz --> 65535
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: da LSHIFT 1 -> du
+2022-10-29 18:26:59.117 day7[13273:316279] running SHIFT case: src: da, shifts: 1, dest: du, direction: LSHIFT
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated da --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: fs AND fu -> fv
+2022-10-29 18:26:59.117 day7[13273:316279] running andOrOp case: src1: fs src2: fu dest: fv op:AND
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated fs --> (null)
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated fu --> 65535
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: jp RSHIFT 1 -> ki
+2022-10-29 18:26:59.117 day7[13273:316279] running SHIFT case: src: jp, shifts: 1, dest: ki, direction: RSHIFT
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated jp --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: iw AND ix -> iz
+2022-10-29 18:26:59.117 day7[13273:316279] running andOrOp case: src1: iw src2: ix dest: iz op:AND
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated iw --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated ix --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: iw OR ix -> iy
+2022-10-29 18:26:59.117 day7[13273:316279] running andOrOp case: src1: iw src2: ix dest: iy op:OR
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated iw --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated ix --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: eo LSHIFT 15 -> es
+2022-10-29 18:26:59.117 day7[13273:316279] running SHIFT case: src: eo, shifts: 15, dest: es, direction: LSHIFT
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated eo --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: ev AND ew -> ey
+2022-10-29 18:26:59.117 day7[13273:316279] running andOrOp case: src1: ev src2: ew dest: ey op:AND
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated ev --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated ew --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: ba AND bc -> bd
+2022-10-29 18:26:59.117 day7[13273:316279] running andOrOp case: src1: ba src2: bc dest: bd op:AND
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated ba --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated bc --> 65535
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: fp AND fv -> fx
+2022-10-29 18:26:59.117 day7[13273:316279] running andOrOp case: src1: fp src2: fv dest: fx op:AND
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated fp --> (null)
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated fv --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: jc AND je -> jf
+2022-10-29 18:26:59.117 day7[13273:316279] running andOrOp case: src1: jc src2: je dest: jf op:AND
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated jc --> 0
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated je --> 65535
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: et RSHIFT 2 -> eu
+2022-10-29 18:26:59.117 day7[13273:316279] running SHIFT case: src: et, shifts: 2, dest: eu, direction: RSHIFT
+2022-10-29 18:26:59.117 day7[13273:316279] disambiguated et --> (null)
+2022-10-29 18:26:59.117 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.117 day7[13273:316279] *** line: kg OR kf -> kh
+2022-10-29 18:26:59.118 day7[13273:316279] running andOrOp case: src1: kg src2: kf dest: kh op:OR
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated kg --> (null)
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated kf --> (null)
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: iu OR jf -> jg
+2022-10-29 18:26:59.118 day7[13273:316279] running andOrOp case: src1: iu src2: jf dest: jg op:OR
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated iu --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated jf --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: er OR es -> et
+2022-10-29 18:26:59.118 day7[13273:316279] running andOrOp case: src1: er src2: es dest: et op:OR
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated er --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated es --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: fo RSHIFT 2 -> fp
+2022-10-29 18:26:59.118 day7[13273:316279] running SHIFT case: src: fo, shifts: 2, dest: fp, direction: RSHIFT
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated fo --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: NOT ca -> cb
+2022-10-29 18:26:59.118 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.118 day7[13273:316279] running the sendSignal case: src: ca dest: cb
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated ca --> (null)
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: bv AND bx -> by
+2022-10-29 18:26:59.118 day7[13273:316279] running andOrOp case: src1: bv src2: bx dest: by op:AND
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated bv --> (null)
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated bx --> 65535
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: u LSHIFT 1 -> ao
+2022-10-29 18:26:59.118 day7[13273:316279] running SHIFT case: src: u, shifts: 1, dest: ao, direction: LSHIFT
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated u --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: cm AND co -> cp
+2022-10-29 18:26:59.118 day7[13273:316279] running andOrOp case: src1: cm src2: co dest: cp op:AND
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated cm --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated co --> 65535
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: y OR ae -> af
+2022-10-29 18:26:59.118 day7[13273:316279] running andOrOp case: src1: y src2: ae dest: af op:OR
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated y --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated ae --> (null)
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: bn AND by -> ca
+2022-10-29 18:26:59.118 day7[13273:316279] running andOrOp case: src1: bn src2: by dest: ca op:AND
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated bn --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated by --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: 1 AND ke -> kf
+2022-10-29 18:26:59.118 day7[13273:316279] running andOrOp case: src1: 1 src2: ke dest: kf op:AND
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated ke --> (null)
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: jt AND jv -> jw
+2022-10-29 18:26:59.118 day7[13273:316279] running andOrOp case: src1: jt src2: jv dest: jw op:AND
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated jt --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated jv --> (null)
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: fq OR fr -> fs
+2022-10-29 18:26:59.118 day7[13273:316279] running andOrOp case: src1: fq src2: fr dest: fs op:OR
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated fq --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated fr --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: dy AND ej -> el
+2022-10-29 18:26:59.118 day7[13273:316279] running andOrOp case: src1: dy src2: ej dest: el op:AND
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated dy --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated ej --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: NOT kc -> kd
+2022-10-29 18:26:59.118 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.118 day7[13273:316279] running the sendSignal case: src: kc dest: kd
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated kc --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: ev OR ew -> ex
+2022-10-29 18:26:59.118 day7[13273:316279] running andOrOp case: src1: ev src2: ew dest: ex op:OR
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated ev --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated ew --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: dd OR do -> dp
+2022-10-29 18:26:59.118 day7[13273:316279] running andOrOp case: src1: dd src2: do dest: dp op:OR
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated dd --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated do --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: NOT cv -> cw
+2022-10-29 18:26:59.118 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.118 day7[13273:316279] running the sendSignal case: src: cv dest: cw
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated cv --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: gr AND gt -> gu
+2022-10-29 18:26:59.118 day7[13273:316279] running andOrOp case: src1: gr src2: gt dest: gu op:AND
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated gr --> (null)
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated gt --> 65535
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.118 day7[13273:316279] *** line: dd RSHIFT 1 -> dw
+2022-10-29 18:26:59.118 day7[13273:316279] running SHIFT case: src: dd, shifts: 1, dest: dw, direction: RSHIFT
+2022-10-29 18:26:59.118 day7[13273:316279] disambiguated dd --> 0
+2022-10-29 18:26:59.118 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: NOT gw -> gx
+2022-10-29 18:26:59.119 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.119 day7[13273:316279] running the sendSignal case: src: gw dest: gx
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated gw --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: NOT iz -> ja
+2022-10-29 18:26:59.119 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.119 day7[13273:316279] running the sendSignal case: src: iz dest: ja
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated iz --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: 1 AND io -> ip
+2022-10-29 18:26:59.119 day7[13273:316279] running andOrOp case: src1: 1 src2: io dest: ip op:AND
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated io --> (null)
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: NOT ag -> ah
+2022-10-29 18:26:59.119 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.119 day7[13273:316279] running the sendSignal case: src: ag dest: ah
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated ag --> (null)
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: b RSHIFT 5 -> f
+2022-10-29 18:26:59.119 day7[13273:316279] running SHIFT case: src: b, shifts: 5, dest: f, direction: RSHIFT
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated b --> (null)
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: NOT cr -> cs
+2022-10-29 18:26:59.119 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.119 day7[13273:316279] running the sendSignal case: src: cr dest: cs
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated cr --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: kb AND kd -> ke
+2022-10-29 18:26:59.119 day7[13273:316279] running andOrOp case: src1: kb src2: kd dest: ke op:AND
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated kb --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated kd --> 65535
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: jr AND js -> ju
+2022-10-29 18:26:59.119 day7[13273:316279] running andOrOp case: src1: jr src2: js dest: ju op:AND
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated jr --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated js --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: cq AND cs -> ct
+2022-10-29 18:26:59.119 day7[13273:316279] running andOrOp case: src1: cq src2: cs dest: ct op:AND
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated cq --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated cs --> 65535
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: il AND in -> io
+2022-10-29 18:26:59.119 day7[13273:316279] running andOrOp case: src1: il src2: in dest: io op:AND
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated il --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated in --> 65535
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: NOT ju -> jv
+2022-10-29 18:26:59.119 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.119 day7[13273:316279] running the sendSignal case: src: ju dest: jv
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated ju --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: du OR dt -> dv
+2022-10-29 18:26:59.119 day7[13273:316279] running andOrOp case: src1: du src2: dt dest: dv op:OR
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated du --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated dt --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: dd AND do -> dq
+2022-10-29 18:26:59.119 day7[13273:316279] running andOrOp case: src1: dd src2: do dest: dq op:AND
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated dd --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated do --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: b RSHIFT 2 -> d
+2022-10-29 18:26:59.119 day7[13273:316279] running SHIFT case: src: b, shifts: 2, dest: d, direction: RSHIFT
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated b --> (null)
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: jm LSHIFT 1 -> kg
+2022-10-29 18:26:59.119 day7[13273:316279] running SHIFT case: src: jm, shifts: 1, dest: kg, direction: LSHIFT
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated jm --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: NOT dq -> dr
+2022-10-29 18:26:59.119 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.119 day7[13273:316279] running the sendSignal case: src: dq dest: dr
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated dq --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: bo OR bu -> bv
+2022-10-29 18:26:59.119 day7[13273:316279] running andOrOp case: src1: bo src2: bu dest: bv op:OR
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated bo --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated bu --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: gk OR gq -> gr
+2022-10-29 18:26:59.119 day7[13273:316279] running andOrOp case: src1: gk src2: gq dest: gr op:OR
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated gk --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated gq --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: he OR hp -> hq
+2022-10-29 18:26:59.119 day7[13273:316279] running andOrOp case: src1: he src2: hp dest: hq op:OR
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated he --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] disambiguated hp --> 0
+2022-10-29 18:26:59.119 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.119 day7[13273:316279] *** line: NOT h -> i
+2022-10-29 18:26:59.119 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.119 day7[13273:316279] running the sendSignal case: src: h dest: i
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated h --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: hf AND hl -> hn
+2022-10-29 18:26:59.120 day7[13273:316279] running andOrOp case: src1: hf src2: hl dest: hn op:AND
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated hf --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated hl --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: gv AND gx -> gy
+2022-10-29 18:26:59.120 day7[13273:316279] running andOrOp case: src1: gv src2: gx dest: gy op:AND
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated gv --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated gx --> 65535
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: x AND ai -> ak
+2022-10-29 18:26:59.120 day7[13273:316279] running andOrOp case: src1: x src2: ai dest: ak op:AND
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated x --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated ai --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: bo AND bu -> bw
+2022-10-29 18:26:59.120 day7[13273:316279] running andOrOp case: src1: bo src2: bu dest: bw op:AND
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated bo --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated bu --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: hq AND hs -> ht
+2022-10-29 18:26:59.120 day7[13273:316279] running andOrOp case: src1: hq src2: hs dest: ht op:AND
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated hq --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated hs --> 65535
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: hz RSHIFT 1 -> is
+2022-10-29 18:26:59.120 day7[13273:316279] running SHIFT case: src: hz, shifts: 1, dest: is, direction: RSHIFT
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated hz --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: gj RSHIFT 5 -> gm
+2022-10-29 18:26:59.120 day7[13273:316279] running SHIFT case: src: gj, shifts: 5, dest: gm, direction: RSHIFT
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated gj --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: g AND i -> j
+2022-10-29 18:26:59.120 day7[13273:316279] running andOrOp case: src1: g src2: i dest: j op:AND
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated g --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated i --> 65535
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: gk AND gq -> gs
+2022-10-29 18:26:59.120 day7[13273:316279] running andOrOp case: src1: gk src2: gq dest: gs op:AND
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated gk --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated gq --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: dp AND dr -> ds
+2022-10-29 18:26:59.120 day7[13273:316279] running andOrOp case: src1: dp src2: dr dest: ds op:AND
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated dp --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated dr --> 65535
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: b RSHIFT 3 -> e
+2022-10-29 18:26:59.120 day7[13273:316279] running SHIFT case: src: b, shifts: 3, dest: e, direction: RSHIFT
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated b --> (null)
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: gl AND gm -> go
+2022-10-29 18:26:59.120 day7[13273:316279] running andOrOp case: src1: gl src2: gm dest: go op:AND
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated gl --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated gm --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: gl OR gm -> gn
+2022-10-29 18:26:59.120 day7[13273:316279] running andOrOp case: src1: gl src2: gm dest: gn op:OR
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated gl --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated gm --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: y AND ae -> ag
+2022-10-29 18:26:59.120 day7[13273:316279] running andOrOp case: src1: y src2: ae dest: ag op:AND
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated y --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated ae --> (null)
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: hv OR hu -> hw
+2022-10-29 18:26:59.120 day7[13273:316279] running andOrOp case: src1: hv src2: hu dest: hw op:OR
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated hv --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated hu --> (null)
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: 1674 -> b
+2022-10-29 18:26:59.120 day7[13273:316279] sending signal
+2022-10-29 18:26:59.120 day7[13273:316279] running the sendSignal case: src: 1674 dest: b
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated 1674 --> 1674
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: ab AND ad -> ae
+2022-10-29 18:26:59.120 day7[13273:316279] running andOrOp case: src1: ab src2: ad dest: ae op:AND
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated ab --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated ad --> (null)
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: NOT ac -> ad
+2022-10-29 18:26:59.120 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.120 day7[13273:316279] running the sendSignal case: src: ac dest: ad
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated ac --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: 1 AND ht -> hu
+2022-10-29 18:26:59.120 day7[13273:316279] running andOrOp case: src1: 1 src2: ht dest: hu op:AND
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated 1 --> 1
+2022-10-29 18:26:59.120 day7[13273:316279] disambiguated ht --> 0
+2022-10-29 18:26:59.120 day7[13273:316279] retVal: 0
+2022-10-29 18:26:59.120 day7[13273:316279] *** line: NOT hn -> ho
+2022-10-29 18:26:59.120 day7[13273:316279] running NOT operation
+2022-10-29 18:26:59.121 day7[13273:316279] running the sendSignal case: src: hn dest: ho
+2022-10-29 18:26:59.121 day7[13273:316279] disambiguated hn --> 0
+2022-10-29 18:26:59.121 day7[13273:316279] retVal: 65535
+2022-10-29 18:26:59.122 day7[13273:316279] board: {
+    a = 0;
+    aa = 0;
+    ab = 0;
+    ac = 0;
+    ad = 65535;
+    ae = 0;
+    af = 0;
+    ag = 0;
+    ah = 65535;
+    ai = 0;
+    aj = 0;
+    ak = 0;
+    al = 65535;
+    am = 0;
+    an = 0;
+    ao = 0;
+    ap = 0;
+    aq = 0;
+    ar = 0;
+    as = 0;
+    at = 0;
+    au = 0;
+    av = 0;
+    aw = 0;
+    ax = 0;
+    ay = 65535;
+    az = 0;
+    b = 1674;
+    ba = 0;
+    bb = 0;
+    bc = 65535;
+    bd = 0;
+    be = 0;
+    bf = 0;
+    bg = 65535;
+    bh = 0;
+    bi = 0;
+    bj = 0;
+    bk = 0;
+    bl = 0;
+    bm = 0;
+    bn = 0;
+    bo = 0;
+    bp = 0;
+    bq = 0;
+    br = 0;
+    bs = 0;
+    bt = 65535;
+    bu = 0;
+    bv = 0;
+    bw = 0;
+    bx = 65535;
+    by = 0;
+    bz = 0;
+    c = 0;
+    ca = 0;
+    cb = 65535;
+    cc = 0;
+    cd = 0;
+    ce = 0;
+    cf = 0;
+    cg = 0;
+    ch = 0;
+    ci = 0;
+    cj = 0;
+    ck = 0;
+    cl = 0;
+    cm = 0;
+    cn = 0;
+    co = 65535;
+    cp = 0;
+    cq = 0;
+    cr = 0;
+    cs = 65535;
+    ct = 0;
+    cu = 0;
+    cv = 0;
+    cw = 65535;
+    cx = 0;
+    cy = 0;
+    cz = 0;
+    d = 0;
+    da = 0;
+    db = 0;
+    dc = 0;
+    dd = 0;
+    de = 0;
+    df = 0;
+    dg = 0;
+    dh = 0;
+    di = 0;
+    dj = 65535;
+    dk = 0;
+    dl = 0;
+    dm = 0;
+    dn = 65535;
+    do = 0;
+    dp = 0;
+    dq = 0;
+    dr = 65535;
+    ds = 0;
+    dt = 0;
+    du = 0;
+    dv = 0;
+    dw = 0;
+    dx = 0;
+    dy = 0;
+    dz = 0;
+    e = 0;
+    ea = 0;
+    eb = 0;
+    ec = 0;
+    ed = 0;
+    ee = 65535;
+    ef = 0;
+    eg = 0;
+    eh = 0;
+    ei = 65535;
+    ej = 0;
+    ek = 0;
+    el = 0;
+    em = 65535;
+    en = 0;
+    eo = 0;
+    ep = 0;
+    eq = 0;
+    er = 0;
+    es = 0;
+    et = 0;
+    eu = 0;
+    ev = 0;
+    ew = 0;
+    ex = 0;
+    ey = 0;
+    ez = 65535;
+    f = 0;
+    fa = 0;
+    fb = 0;
+    fc = 0;
+    fd = 65535;
+    fe = 0;
+    ff = 0;
+    fg = 0;
+    fh = 65535;
+    fi = 0;
+    fj = 0;
+    fk = 0;
+    fl = 0;
+    fm = 0;
+    fn = 0;
+    fo = 0;
+    fp = 0;
+    fq = 0;
+    fr = 0;
+    fs = 0;
+    ft = 0;
+    fu = 65535;
+    fv = 0;
+    fw = 0;
+    fx = 0;
+    fy = 65535;
+    fz = 0;
+    g = 0;
+    ga = 0;
+    gb = 0;
+    gc = 65535;
+    gd = 0;
+    ge = 0;
+    gf = 0;
+    gg = 0;
+    gh = 0;
+    gi = 0;
+    gj = 0;
+    gk = 0;
+    gl = 0;
+    gm = 0;
+    gn = 0;
+    go = 0;
+    gp = 65535;
+    gq = 0;
+    gr = 0;
+    gs = 0;
+    gt = 65535;
+    gu = 0;
+    gv = 0;
+    gw = 0;
+    gx = 65535;
+    gy = 0;
+    gz = 0;
+    h = 0;
+    ha = 0;
+    hb = 0;
+    hc = 0;
+    hd = 0;
+    he = 0;
+    hf = 0;
+    hg = 0;
+    hh = 0;
+    hi = 0;
+    hj = 0;
+    hk = 65535;
+    hl = 0;
+    hm = 0;
+    hn = 0;
+    ho = 65535;
+    hp = 0;
+    hq = 0;
+    hr = 0;
+    hs = 65535;
+    ht = 0;
+    hu = 0;
+    hv = 0;
+    hw = 0;
+    hx = 0;
+    hy = 0;
+    hz = 0;
+    i = 65535;
+    ia = 0;
+    ib = 0;
+    ic = 0;
+    id = 0;
+    ie = 0;
+    if = 65535;
+    ig = 0;
+    ih = 0;
+    ii = 0;
+    ij = 65535;
+    ik = 0;
+    il = 0;
+    im = 0;
+    in = 65535;
+    io = 0;
+    ip = 0;
+    iq = 0;
+    ir = 0;
+    is = 0;
+    it = 0;
+    iu = 0;
+    iv = 0;
+    iw = 0;
+    ix = 0;
+    iy = 0;
+    iz = 0;
+    j = 0;
+    ja = 65535;
+    jb = 0;
+    jc = 0;
+    jd = 0;
+    je = 65535;
+    jf = 0;
+    jg = 0;
+    jh = 0;
+    ji = 65535;
+    jj = 0;
+    jk = 0;
+    jl = 0;
+    jm = 0;
+    jn = 0;
+    jo = 0;
+    jp = 0;
+    jq = 0;
+    jr = 0;
+    js = 0;
+    jt = 0;
+    ju = 0;
+    jv = 65535;
+    jw = 0;
+    jx = 0;
+    jy = 0;
+    jz = 65535;
+    k = 0;
+    ka = 0;
+    kb = 0;
+    kc = 0;
+    kd = 65535;
+    ke = 0;
+    kf = 0;
+    kg = 0;
+    kh = 0;
+    ki = 0;
+    kj = 0;
+    kk = 0;
+    kl = 0;
+    km = 0;
+    kn = 0;
+    ko = 0;
+    kp = 0;
+    kq = 65535;
+    kr = 0;
+    ks = 0;
+    kt = 0;
+    ku = 65535;
+    kv = 0;
+    kw = 0;
+    kx = 0;
+    ky = 65535;
+    kz = 0;
+    l = 0;
+    la = 0;
+    lb = 0;
+    lc = 0;
+    ld = 0;
+    le = 0;
+    lf = 0;
+    lg = 0;
+    lh = 0;
+    li = 0;
+    lj = 0;
+    lk = 0;
+    ll = 65535;
+    lm = 0;
+    ln = 0;
+    lo = 0;
+    lp = 65535;
+    lq = 0;
+    lr = 0;
+    ls = 0;
+    lt = 65535;
+    lu = 0;
+    lv = 0;
+    lw = 0;
+    lx = 0;
+    ly = 0;
+    lz = 0;
+    m = 65535;
+    ma = 0;
+    n = 0;
+    o = 0;
+    p = 0;
+    q = 65535;
+    r = 0;
+    s = 0;
+    t = 0;
+    u = 0;
+    v = 0;
+    w = 0;
+    x = 0;
+    y = 0;
+    z = 0;
+}
