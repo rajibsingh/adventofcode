@@ -1,7 +1,7 @@
 #!/usr/bin/env swift
 import Foundation
 
-let filePath = "../input.txt"
+let filePath = "input.txt"
 let fullPath = NSString(string: filePath).expandingTildeInPath
  do
  {
@@ -13,11 +13,16 @@ let fullPath = NSString(string: filePath).expandingTildeInPath
     for line in lines {
         print(line)
         if line.count < 1 {
-            print("empty line!")
+            if runningTotal > highestTotal {
+                highestTotal = runningTotal
+            }
+            runningTotal = 0
         } else {
-
+            let currentVal = Int(line)
+            runningTotal = runningTotal + currentVal!
         }
     }
+     print("highest total: \(highestTotal)")
  }
  catch
  {
