@@ -15,7 +15,7 @@ NSInteger intSort(id num1, id num2, void *context)
 int main() {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     NSString* filePath = @"input.txt";
-    NSString* fileContent = [NSString stringWithContentsOfFile:@"../input.txt"
+    NSString* fileContent = [NSString stringWithContentsOfFile:@"input.txt"
                             encoding:NSUTF8StringEncoding error:nil];
     NSArray* lines = [fileContent componentsSeparatedByString:(NSString *)@"\n"];
     NSMutableArray* scores = [[NSMutableArray alloc] init];
