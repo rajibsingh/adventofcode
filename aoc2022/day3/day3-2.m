@@ -12,25 +12,13 @@ int main() {
         NSString* line1 = lines[lineIndex];
         NSString* line2 = lines[lineIndex+1];
         NSString* line3 = lines[lineIndex+2];
-        NSLog(@"line1: %@", line1);
-        NSLog(@"line2: %@", line2);
-        NSLog(@"line3: %@", line3);
-        // for (int i =0; i < [firstHalf length]; i++) {
-            // int commonElementPriority = 0;
-            // unichar character = [firstHalf characterAtIndex:i];
-            // NSString* charStr = [NSString stringWithCharacters:&character length:1];
-            // bool wasFound = [secondHalf rangeOfString:charStr].location != NSNotFound;
-            // if (wasFound) {
-                // if ([charStr.uppercaseString isEqualToString:charStr]) {
-                    // commonElementPriority = (int)character - 38;
-                // } else {
-                    // commonElementPriority = (int)character - 96;
-                // }
-                // NSLog(@"%@ found, code: %d, priority: %d", charStr, (int)character, commonElementPriority);
-                // totalPriority = totalPriority + commonElementPriority;
-                // break;
-            // }
-        // }
+        int commonElementPriority = 0;
+        for (int i = 0; i < line1.length - 2; i++) {
+            NSRange range = NSMakeRange(i, i+1);
+            NSLog(@"i: %d", i);
+            NSString* searchStr = [line1 substringWithRange:range];
+            NSLog(@"searchStr: %@", searchStr);
+       }
     }
     NSLog(@"totalPriority: %ld", totalPriority);
     [pool drain];
