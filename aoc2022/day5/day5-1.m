@@ -5,21 +5,43 @@ int main() {
     NSString *fileContent = [NSString stringWithContentsOfFile:@"input.txt"
                                                       encoding:NSUTF8StringEncoding error:nil];
     NSArray *lines = [fileContent componentsSeparatedByString:(NSString *) @"\n"];
-    NSError* error = nil;
+    NSError *error = nil;
+
+    // create data structure to hold parsed data
+    NSMutableDictionary *stacks = [NSMutableDictionary dictionaryWithCapacity:10];
+    for (int i = 1; i < 10; i++) {
+        NSString *stackName = [NSString stringWithFormat:@"%d", i];
+        NSMutableArray *stack = [[NSMutableArray alloc] init];
+        stacks[stackName] = stack;
+    }
+
+    //parse input
     for (NSString *line in lines) {
-        NSLog(@"line: %@", line);
-//        NSRegularExpression* regex = [NSRegularExpression regularExpressionWithPattern:@"(?:www\\.)?((?!-)[a-zA-Z0-9-]{2,63}(?<!-))\\.?((?:[a-zA-Z0-9]{2,})?(?:\\.[a-zA-Z0-9]{2,})?)" options:0 error:&error];
-        NSRegularExpression* regex = [NSRegularExpression regularExpressionWithPattern:@"\\[.\\]" options:0 error:&error];
-        NSArray* matches = [regex matchesInString:line options:0 range:NSMakeRange(0, [line length])];
-        for ( NSTextCheckingResult* match in matches )
-        {
-            NSString* matchText = [line substringWithRange:[match range]];
-            NSLog(@"*** match: %@", matchText);
+        NSLog(@"*** line: %@", line);
+        NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"\\[.\\]" options:0 error:&error];
+        NSArray *matches = [regex matchesInString:line options:0 range:NSMakeRange(0, [line length])];
+        for (NSTextCheckingResult *match in matches) {
+            NSString *matchText = [line substringWithRange:[match range]];
+            NSLog(@"match: %@", matchText);
+            NSRange charRange = [line rangeOfString:matchText];
+            NSLog(@"charAt: %@", NSStringFromRange(charRange));
+            int stackId = charRange.location / 4 + 1;
+            NSString *stackName = [NSString stringWithFormat:@"%d", stackId];
+            NSLog(@"stackName %@", stackName);
+            unichar crateNameChar = [line characterAtIndex:charRange.location+1];
+            NSString* crateStr = [NSString stringWithFormat:@"%C", crateNameChar];
+            NSLog(@"crateStr: %@", crateStr);
+            NSMutableArray* stack = stacks[stackName];
+            [stack addObject:crateStr];
         }
-//
-//        if ([line characterAtIndex:0] == L'm') {
-//            NSLog(@"** line %@", line);
-//        }
+
+    }
+
+    // debug
+    for (int i = 1; i < 10; i++) {
+        NSString* stackName = [NSString stringWithFormat:@" %d",i];
+        NSMutableArray* stack = stacks[stackName];
+        NSLog(@"stack %@: %@", stackName, stack);
     }
 
     [pool drain];
