@@ -24,24 +24,24 @@ int main() {
             NSString *matchText = [line substringWithRange:[match range]];
             NSLog(@"match: %@", matchText);
             NSRange charRange = [line rangeOfString:matchText];
-            NSLog(@"charAt: %@", NSStringFromRange(charRange));
+//            NSLog(@"charAt: %@", NSStringFromRange(charRange));
             int stackId = charRange.location / 4 + 1;
             NSString *stackName = [NSString stringWithFormat:@"%d", stackId];
-            NSLog(@"stackName %@", stackName);
+            NSLog(@"stackName \"%@\"", stackName);
             unichar crateNameChar = [line characterAtIndex:charRange.location+1];
             NSString* crateStr = [NSString stringWithFormat:@"%C", crateNameChar];
             NSLog(@"crateStr: %@", crateStr);
             NSMutableArray* stack = stacks[stackName];
             [stack addObject:crateStr];
+            NSLog(@"stackName: %@ holding: %d", stackName, stack.count);
         }
-
     }
 
     // debug
     for (int i = 1; i < 10; i++) {
-        NSString* stackName = [NSString stringWithFormat:@" %d",i];
+        NSString* stackName = [NSString stringWithFormat:@"%d",i];
         NSMutableArray* stack = stacks[stackName];
-        NSLog(@"stack %@: %@", stackName, stack);
+        NSLog(@"stack %@: %d", stackName, stack.count);
     }
 
     [pool drain];
