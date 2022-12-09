@@ -16,14 +16,14 @@ int main() {
     }
 
     //parse input
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"\\[.\\]" options:0 error:&error];
     for (NSString *line in lines) {
-        NSLog(@"*** line: %@", line);
+        NSLog(@"\n*** line: %@", line);
         //parsing initial setup
-        NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"\\[.\\]" options:0 error:&error];
         NSArray *matches = [regex matchesInString:line options:0 range:NSMakeRange(0, [line length])];
         for (NSTextCheckingResult *match in matches) {
             NSString *matchText = [line substringWithRange:[match range]];
-            NSLog(@"match: %@", matchText);
+//            NSLog(@"match: %@", matchText);
             NSRange charRange = [line rangeOfString:matchText];
 //            NSLog(@"charAt: %@", NSStringFromRange(charRange));
             int stackId = charRange.location / 4 + 1;
@@ -31,10 +31,10 @@ int main() {
             NSLog(@"stackName \"%@\"", stackName);
             unichar crateNameChar = [line characterAtIndex:charRange.location+1];
             NSString* crateStr = [NSString stringWithFormat:@"%C", crateNameChar];
-            NSLog(@"crateStr: %@", crateStr);
+//            NSLog(@"crateStr: %@", crateStr);
             NSMutableArray* stack = stacks[stackName];
-            [stack addObject:crateStr];
-            NSLog(@"stackName: %@ holding: %d", stackName, stack.count);
+            [stack insertObject:crateStr atIndex:0];
+//            NSLog(@"stackName: %@ holding: %d", stackName, stack.count);
         }
 
         //handle commands
@@ -51,14 +51,17 @@ int main() {
                 [destStack addObject:crate];
             }
         }
+
+        // debug
+        for (int i = 1; i < 10; i++) {
+            NSString* stackName = [NSString stringWithFormat:@"%d",i];
+            NSMutableArray* stack = stacks[stackName];
+            if (stack.count > 0) {
+                NSLog(@"stack %@: %d: %@", stackName, stack.count, stack);
+            }
+        }
     }
 
-    // debug
-    for (int i = 1; i < 10; i++) {
-        NSString* stackName = [NSString stringWithFormat:@"%d",i];
-        NSMutableArray* stack = stacks[stackName];
-        NSLog(@"stack %@: %d: %@", stackName, stack.count, stack);
-    }
 
     [pool drain];
     return 0;
