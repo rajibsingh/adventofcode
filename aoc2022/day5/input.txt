@@ -1,1 +1,1 @@
-input-full.txt
+input-example.txt
