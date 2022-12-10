@@ -1,5 +1,19 @@
 #import <Foundation/Foundation.h>
 
+void printStack(NSString* stackName, NSArray* stack) {
+    NSMutableString* retVal = [[NSMutableString alloc] init];
+    [retVal appendString:@"["];
+    for (int i = 0; i < stack.count; i++) {
+        NSString* itChar = (NSString*)stack[i];
+        if (i > 0) {
+            [retVal appendString:@", "];
+        }
+        [retVal appendString:itChar];
+    }
+    [retVal appendString:@"]"];
+    NSLog(@"stack %@ -> %@ ", stackName, retVal);
+}
+
 int main() {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     NSString *fileContent = [NSString stringWithContentsOfFile:@"input.txt"
@@ -18,23 +32,24 @@ int main() {
     //parse input
     NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"\\[.\\]" options:0 error:&error];
     for (NSString *line in lines) {
-        NSLog(@"\n*** line: %@", line);
-        //parsing initial setup
+        NSLog(@"\n\n*** line: %@", line);
+        //parsing initial configuration
         NSArray *matches = [regex matchesInString:line options:0 range:NSMakeRange(0, [line length])];
-        for (NSTextCheckingResult *match in matches) {
+        int searchFromCharIndex = 0;
+        for (NSTextCheckingResult* match in matches) {
             NSString *matchText = [line substringWithRange:[match range]];
-//            NSLog(@"match: %@", matchText);
-            NSRange charRange = [line rangeOfString:matchText];
-//            NSLog(@"charAt: %@", NSStringFromRange(charRange));
+            NSRange range = match.range;
+            NSLog(@"range: %@", NSStringFromRange(range));
+            NSRange charRange = [line rangeOfString:matchText options:NSCaseInsensitiveSearch range:range];
             int stackId = charRange.location / 4 + 1;
             NSString *stackName = [NSString stringWithFormat:@"%d", stackId];
-            NSLog(@"stackName \"%@\"", stackName);
             unichar crateNameChar = [line characterAtIndex:charRange.location+1];
             NSString* crateStr = [NSString stringWithFormat:@"%C", crateNameChar];
-//            NSLog(@"crateStr: %@", crateStr);
             NSMutableArray* stack = stacks[stackName];
+            searchFromCharIndex = charRange.location+4;
+            NSLog(@"%@ goes to %@", crateStr, stackName);
             [stack insertObject:crateStr atIndex:0];
-//            NSLog(@"stackName: %@ holding: %d", stackName, stack.count);
+            printStack(stackName, stack);
         }
 
         //handle commands
@@ -44,6 +59,7 @@ int main() {
             NSString* srcStackName = (NSString*)cmdLineArray[3];
             NSMutableArray* srcStack = stacks[srcStackName];
             NSString* destStackName = (NSString*)cmdLineArray[5];
+
             NSMutableArray* destStack = stacks[destStackName];
             for (int i = 0; i < amount; i++) {
                 NSString* crate = (NSString*)srcStack[srcStack.count-1];
@@ -53,14 +69,17 @@ int main() {
         }
 
         // debug
+        NSLog(@"\t*** all stacks");
         for (int i = 1; i < 10; i++) {
             NSString* stackName = [NSString stringWithFormat:@"%d",i];
             NSMutableArray* stack = stacks[stackName];
             if (stack.count > 0) {
-                NSLog(@"stack %@: %d: %@", stackName, stack.count, stack);
+                printStack(stackName, stack);
             }
         }
+
     }
+
 
 
     [pool drain];
