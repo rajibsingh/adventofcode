@@ -1,15 +1,5 @@
 #import <Foundation/Foundation.h>
 
-void printSet(NSString* setName, NSSet* stack) {
-    NSMutableString* retVal = [[NSMutableString alloc] init];
-    [retVal appendString:@"["];
-    for (NSString* key in [setName attributeKeys]) {
-        [retVal appendString: key];
-    }
-    [retVal appendString:@"]"];
-    NSLog(@"stack %@ -> %@ ", setName, retVal);
-}
-
 int main() {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     NSString *fileContent = [NSString stringWithContentsOfFile:@"input.txt"
@@ -24,14 +14,15 @@ int main() {
         for (int i = 0; i < line.length; i++) {
             NSRange searchRange = NSMakeRange(i, 1);
             NSString *retString = [line substringWithRange:searchRange];
-            NSLog(@"searchRange: %@ : char: %@", NSStringFromRange(searchRange), retString);
+//            NSLog(@"searchRange: %@ : char: %@", NSStringFromRange(searchRange), retString);
             [stack addObject:retString];
             if ([stack count] > 4) {
                 [stack removeObjectAtIndex:0];
             }
             NSSet *set = [NSSet setWithArray:stack];
-            if ([stack count] == 4 && [set attributeKeys].count < 4) {
-                NSLog(@"start of packet marker found at index %d", i);
+            if ([stack count] == 4 && [set count] > 3) {
+                NSLog(@"start of packet marker found at index %d", i+1);
+                NSLog(@"set: %@", set);
                 break;
             }
         }
