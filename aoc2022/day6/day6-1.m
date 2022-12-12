@@ -1,17 +1,13 @@
 #import <Foundation/Foundation.h>
 
-void printStack(NSString* stackName, NSArray* stack) {
+void printSet(NSString* setName, NSSet* stack) {
     NSMutableString* retVal = [[NSMutableString alloc] init];
     [retVal appendString:@"["];
-    for (int i = 0; i < stack.count; i++) {
-        NSString* itChar = (NSString*)stack[i];
-        if (i > 0) {
-            [retVal appendString:@", "];
-        }
-        [retVal appendString:itChar];
+    for (NSString* key in [setName attributeKeys]) {
+        [retVal appendString: key];
     }
     [retVal appendString:@"]"];
-    NSLog(@"stack %@ -> %@ ", stackName, retVal);
+    NSLog(@"stack %@ -> %@ ", setName, retVal);
 }
 
 int main() {
@@ -19,71 +15,29 @@ int main() {
     NSString *fileContent = [NSString stringWithContentsOfFile:@"input.txt"
                                                       encoding:NSUTF8StringEncoding error:nil];
     NSArray *lines = [fileContent componentsSeparatedByString:(NSString *) @"\n"];
-    NSError *error = nil;
-
-    // create data structure to hold parsed data
-    NSMutableDictionary *stacks = [NSMutableDictionary dictionaryWithCapacity:10];
-    for (int i = 1; i < 10; i++) {
-        NSString *stackName = [NSString stringWithFormat:@"%d", i];
-        NSMutableArray *stack = [[NSMutableArray alloc] init];
-        stacks[stackName] = stack;
-    }
 
     //parse input
-    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"\\[.\\]" options:0 error:&error];
     for (NSString *line in lines) {
-        NSLog(@"\n\n*** line: %@", line);
-        //parsing initial configuration
-        NSArray *matches = [regex matchesInString:line options:0 range:NSMakeRange(0, [line length])];
-        int searchFromCharIndex = 0;
-        for (NSTextCheckingResult* match in matches) {
-            NSString *matchText = [line substringWithRange:[match range]];
-            NSRange range = match.range;
-            NSLog(@"range: %@", NSStringFromRange(range));
-            NSRange charRange = [line rangeOfString:matchText options:NSCaseInsensitiveSearch range:range];
-            int stackId = charRange.location / 4 + 1;
-            NSString *stackName = [NSString stringWithFormat:@"%d", stackId];
-            unichar crateNameChar = [line characterAtIndex:charRange.location+1];
-            NSString* crateStr = [NSString stringWithFormat:@"%C", crateNameChar];
-            NSMutableArray* stack = stacks[stackName];
-            searchFromCharIndex = charRange.location+4;
-            NSLog(@"%@ goes to %@", crateStr, stackName);
-            [stack insertObject:crateStr atIndex:0];
-            printStack(stackName, stack);
-        }
-
-        //handle commands
-        if ([line containsString:@"move"]) {
-            NSArray* cmdLineArray = [line componentsSeparatedByString:@" "];
-            int amount = [(NSString*)cmdLineArray[1] intValue];
-            NSString* srcStackName = (NSString*)cmdLineArray[3];
-            NSMutableArray* srcStack = stacks[srcStackName];
-            NSString* destStackName = (NSString*)cmdLineArray[5];
-            NSMutableArray* destStack = stacks[destStackName];
-            NSRange tempStackRange = NSMakeRange(srcStack.count - amount, amount);
-            NSLog(@"tempStackRange: %@", NSStringFromRange(tempStackRange));;
-            NSMutableArray* tempStack = [srcStack subarrayWithRange:tempStackRange];
-            printStack(@"tempStack", tempStack);
-            [destStack addObjectsFromArray:tempStack];
-            printStack(@"destStack", destStack);
-            [srcStack removeObjectsInRange:tempStackRange];
-            printStack(@"srcStack", srcStack);
-        }
-
-        // debug
-        NSLog(@"\t*** all stacks");
-        for (int i = 1; i < 10; i++) {
-            NSString* stackName = [NSString stringWithFormat:@"%d",i];
-            NSMutableArray* stack = stacks[stackName];
-            if (stack.count > 0) {
-                printStack(stackName, stack);
+        NSLog(@"\n*** line: %@", line);
+        // create data structure to hold parsed data
+        NSMutableArray *stack = [[NSMutableArray alloc] initWithCapacity:4];
+        for (int i = 0; i < line.length; i++) {
+            NSRange searchRange = NSMakeRange(i, 1);
+            NSString *retString = [line substringWithRange:searchRange];
+            NSLog(@"searchRange: %@ : char: %@", NSStringFromRange(searchRange), retString);
+            [stack addObject:retString];
+            if ([stack count] > 4) {
+                [stack removeObjectAtIndex:0];
+            }
+            NSSet *set = [NSSet setWithArray:stack];
+            if ([stack count] == 4 && [set attributeKeys].count < 4) {
+                NSLog(@"start of packet marker found at index %d", i);
+                break;
             }
         }
-
     }
-
-
 
     [pool drain];
     return 0;
+
 }
