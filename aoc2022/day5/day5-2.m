@@ -59,13 +59,15 @@ int main() {
             NSString* srcStackName = (NSString*)cmdLineArray[3];
             NSMutableArray* srcStack = stacks[srcStackName];
             NSString* destStackName = (NSString*)cmdLineArray[5];
-
             NSMutableArray* destStack = stacks[destStackName];
-            for (int i = 0; i < amount; i++) {
-                NSString* crate = (NSString*)srcStack[srcStack.count-1];
-                [srcStack removeLastObject];
-                [destStack addObject:crate];
-            }
+            NSRange tempStackRange = NSMakeRange(srcStack.count - amount, amount);
+            NSLog(@"tempStackRange: %@", NSStringFromRange(tempStackRange));;
+            NSMutableArray* tempStack = [srcStack subarrayWithRange:tempStackRange];
+            printStack(@"tempStack", tempStack);
+            [destStack addObjectsFromArray:tempStack];
+            printStack(@"destStack", destStack);
+            [srcStack removeObjectsInRange:tempStackRange];
+            printStack(@"srcStack", srcStack);
         }
 
         // debug
