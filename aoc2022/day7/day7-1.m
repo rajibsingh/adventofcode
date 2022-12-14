@@ -2,9 +2,15 @@
 
 @interface Tree:NSObject
     @property (retain, nonatomic)NSString* name;
+    @property (retain, nonatomic)Tree* parent;
+    @property (retain, nonatomic)NSMutableDictionary* files;
+    @property (retain, nonatomic)NSArray* children;
+
     +(void)sampleMethod:(NSString*)greetname greeting:(NSString*)greeting;
     -(Tree*)init:(NSString*)name;
     -(void)pokeObject;
+    -(void)setParent:(Tree*)parent;
+
 @end
 
 @implementation Tree
@@ -16,6 +22,8 @@
     -(Tree*)init:(NSString* ) name {
         if (self = [super init]) {
             self.name = name;
+            self.files = [[NSMutableDictionary alloc]initWithCapacity:1];
+            self.children = [[NSMutableArray alloc]initWithCapacity:1];
         }
         return self;
     }
@@ -23,13 +31,17 @@
     -(void)pokeObject {
         NSLog(@"poking object %@", self.name);
     }
+
+    -(void)setParent:(Tree*)parent {
+        self.parent = parent;
+    }
 @end
 
 int main() {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     NSString *fileContent = [NSString stringWithContentsOfFile:@"input.txt"
                                                       encoding:NSUTF8StringEncoding error:nil];
-    NSArray *lines = [fileContent componentsSeparatedByString:(NSString *) @"\n"];
+    NSArray *lines = [fileContent componentsSeparatedByString:(NSString *) @"$"];
     Tree* rootNode = [[Tree alloc] init:@"/"];
     [Tree sampleMethod:@"raj" greeting:@"merry x-mas"];
     [rootNode pokeObject];
@@ -37,12 +49,12 @@ int main() {
     //parse input
     for (NSString *line in lines) {
         NSLog(@"\n*** line: %@", line);
-        NSArray* commandLineTokens = [line componentsSeparatedByString:@" "];
-        NSLog(@"%@", commandLineTokens);
-        NSString* command = commandLineTokens[0];
+        NSArray* commandLineAndOutputTokens = [line componentsSeparatedByString:@" "];
+        NSLog(@"%@", commandLineAndOutputTokens);
+        NSString* command = commandLineAndOutputTokens[0];
         if ([command isEqual:@"cd"]) {
             NSLog(@"cd command received");
-            NSString* location = commandLineTokens[1];
+            NSString* location = commandLineAndOutputTokens[1];
             if ([location isEqual:@"/"]) {
                 currentLocation = rootNode;
             }
