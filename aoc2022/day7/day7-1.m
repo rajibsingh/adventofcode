@@ -41,22 +41,25 @@ int main() {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     NSString *fileContent = [NSString stringWithContentsOfFile:@"input.txt"
                                                       encoding:NSUTF8StringEncoding error:nil];
-    NSArray *lines = [fileContent componentsSeparatedByString:(NSString *) @"$"];
+    NSArray *commandAndOutputLines = [fileContent componentsSeparatedByString:(NSString *) @"$"];
     Tree* rootNode = [[Tree alloc] init:@"/"];
-    [Tree sampleMethod:@"raj" greeting:@"merry x-mas"];
-    [rootNode pokeObject];
+//    [Tree sampleMethod:@"raj" greeting:@"merry x-mas"];
+//    [rootNode pokeObject];
     Tree* currentLocation = nil;
     //parse input
-    for (NSString *line in lines) {
-        NSLog(@"\n*** line: %@", line);
-        NSArray* commandLineAndOutputTokens = [line componentsSeparatedByString:@" "];
-        NSLog(@"%@", commandLineAndOutputTokens);
-        NSString* command = commandLineAndOutputTokens[0];
-        if ([command isEqual:@"cd"]) {
-            NSLog(@"cd command received");
-            NSString* location = commandLineAndOutputTokens[1];
-            if ([location isEqual:@"/"]) {
-                currentLocation = rootNode;
+    for (NSString *line in commandAndOutputLines) {
+        NSString* commandAndOutputNewLines = [line componentsSeparatedByString:@"\n"];
+        for (NSString* commandAndOutput in commandAndOutputNewLines) {
+            NSLog(@"\n*** line: %@", line);
+            NSArray *commandLineAndOutputTokens = [line componentsSeparatedByString:@" "];
+            NSLog(@"%@", commandLineAndOutputTokens);
+            NSString *command = commandLineAndOutputTokens[0];
+            if ([command isEqual:@"cd"]) {
+                NSLog(@"cd command received");
+                NSString *location = commandLineAndOutputTokens[1];
+                if ([location isEqual:@"/"]) {
+                    currentLocation = rootNode;
+                }
             }
         }
     }
