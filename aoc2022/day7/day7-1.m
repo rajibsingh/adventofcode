@@ -48,19 +48,24 @@ int main() {
     Tree* currentLocation = nil;
     //parse input
     for (NSString *line in commandAndOutputLines) {
-        NSString* commandAndOutputNewLines = [line componentsSeparatedByString:@"\n"];
+        NSLog(@"*** line: %@", line);
+        NSArray* commandAndOutputNewLines = [line componentsSeparatedByString:@"\n"];
         for (NSString* commandAndOutput in commandAndOutputNewLines) {
-            NSLog(@"\n*** line: %@", line);
-            NSArray *commandLineAndOutputTokens = [line componentsSeparatedByString:@" "];
-            NSLog(@"%@", commandLineAndOutputTokens);
-            NSString *command = commandLineAndOutputTokens[0];
-            if ([command isEqual:@"cd"]) {
-                NSLog(@"cd command received");
-                NSString *location = commandLineAndOutputTokens[1];
-                if ([location isEqual:@"/"]) {
-                    currentLocation = rootNode;
+            NSArray *commandLineAndOutputTokens = [commandAndOutput componentsSeparatedByString:@" "];
+            for (NSString* commandLineOutputToken in commandLineAndOutputTokens) {
+                if ([commandLineOutputToken length] == 0) {
+                    continue;
                 }
+                NSLog(@"commandLineOutputToken: %@", commandLineOutputToken);
             }
+//            NSString *command = commandLineAndOutputTokens[1];
+//            if ([command isEqual:@"cd"]) {
+//                NSLog(@"cd command received");
+//                NSString *location = commandLineAndOutputTokens[1];
+//                if ([location isEqual:@"/"]) {
+//                    currentLocation = rootNode;
+//                }
+//            }
         }
     }
 
