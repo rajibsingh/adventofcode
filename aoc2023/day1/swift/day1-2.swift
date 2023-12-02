@@ -6,30 +6,25 @@ var total = 0
 func processLine(line: String) -> Int {
     print("***\n" + line)
     var nums:Array<Int> = []
-    var charIndex = 0
     let numDictionary: [String: String] = ["one": "1", "two": "2", "three": "3", "four": "4", "five": "5",
                                         "six": "6", "seven": "7", "eight": "8", "nine": "9", "zero": "0"]
 
     var procLine:String = line
-    while charIndex < procLine.count {
-        let char = procLine[procLine.index(procLine.startIndex, offsetBy: charIndex)]
-        if char == "-" {
-            procLine.insert(" ", at: procLine.index(procLine.startIndex, offsetBy: charIndex))
-            procLine.insert(" ", at: procLine.index(procLine.startIndex, offsetBy: charIndex + 2))
-            charIndex += 2
+    var charIndex = 0
+    while procLine.count > 0 {
+        for word in numDictionary.keys {
+            if procLine.hasPrefix(word) {
+                nums.append(Int(numDictionary[word]!)!)
+            }
         }
-        charIndex += 1
-    }
-    for word in numDictionary.keys {
-        if procLine.contains(word) {
-            procLine = procLine.replacingOccurrences(of: word, with: numDictionary[word]!)
-        }
-    }
 
-    for character in procLine {
+        let character = procLine.first!
         if character.isNumber {
             nums.append(Int(String(character))!)
         }
+
+        procLine = String(procLine.dropFirst())
+        
     }
     if nums.count > 2 {
         nums[1] = nums.last!
