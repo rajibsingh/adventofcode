@@ -13,7 +13,6 @@ enum OperationType {push, and, or, lshift, rshift};
 
 /**********************************/
 @implementation Wire
-
     -(Wire*) init:(NSString*)src op:(enum OperationType)op param:(NSString*)param {
         if (self = [super init]) {
             self.op = op;
