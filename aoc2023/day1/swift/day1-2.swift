@@ -10,7 +10,6 @@ func processLine(line: String) -> Int {
                                         "six": "6", "seven": "7", "eight": "8", "nine": "9", "zero": "0"]
 
     var procLine:String = line
-    var charIndex = 0
     while procLine.count > 0 {
         for word in numDictionary.keys {
             if procLine.hasPrefix(word) {
