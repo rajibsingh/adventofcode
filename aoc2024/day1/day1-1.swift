@@ -26,9 +26,9 @@ func readFile(atPath path: String) {
             let numB = numbers[1]
             colA.append(numA)
             colB.append(numB)
-            colA.sort()
-            colB.sort()
         }
+        colA.sort()
+        colB.sort()
 
     } catch {
         print("Error reading file: \(error.localizedDescription)\n")

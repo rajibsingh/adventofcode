@@ -41,12 +41,15 @@ func processData() -> Int {
         return 0
     }
 
+    var similarity: Int = 0
+
     for i in 0..<colA.count {
-        let distance = abs(colA[i] - colB[i])
-        distances.append(distance)
+        let numA = colA[i]
+        let countB = colB.filter{$0 == numA}.count
+        let simScore = numA * countB
+        similarity += simScore
     }
-    let sum = distances.reduce(0, +)
-    return sum
+    return similarity
 }
 
 // Path to text file
