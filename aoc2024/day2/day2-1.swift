@@ -2,9 +2,12 @@
 
 import Foundation
 
-var colA = [Int]()
-var colB = [Int]()
-var distances: [Int] = []
+struct Report {
+    let levels: [Int]
+}
+
+
+var reports: [Report] = []
 
 // Function to read a text file
 func readFile(atPath path: String) {
@@ -17,36 +20,51 @@ func readFile(atPath path: String) {
             guard !line.isEmpty else { continue }
             print("line: \(line)")
 
-            // filter only digits from the line
+            // filter only numbers from the line
             var numbers: [Int] = []
 
-            // Get First and Last Digitsj
+            // Get the numbers from the line
             numbers = line.split(separator: " ").map { Int($0)! }
-            let numA = numbers[0]
-            let numB = numbers[1]
-            colA.append(numA)
-            colB.append(numB)
+            reports.append(Report(levels: numbers))
+            print(numbers)
         }
-        colA.sort()
-        colB.sort()
 
     } catch {
         print("Error reading file: \(error.localizedDescription)\n")
     }
 }
 
-func processData() -> Int {
-    guard colA.count == colB.count else {
-        print("Columns are not of the same length")
-        return 0
+func isValidSequence(_ levels: [Int]) -> Bool {
+    guard levels.count > 1 else { return true }
+    
+    let differences = zip(levels, levels.dropFirst()).map { $1 - $0 }
+    
+    let isValidDifference = { (diff: Int) -> Bool in
+        abs(diff) >= 1 && abs(diff) <= 3
     }
+    
+    let isIncreasing = differences.allSatisfy { diff in 
+        diff > 0 && isValidDifference(diff)
+    }
+    
+    let isDecreasing = differences.allSatisfy { diff in 
+        diff < 0 && isValidDifference(diff)
+    }
+    
+    return isIncreasing || isDecreasing
+}
 
-    for i in 0..<colA.count {
-        let distance = abs(colA[i] - colB[i])
-        distances.append(distance)
+func processData() -> Int {
+    var validSequences = 0
+    reports.forEach { report in
+        if isValidSequence(report.levels) {
+            validSequences += 1
+            print("Valid sequence: \(report.levels)")
+        } else {
+            print("Invalid sequence: \(report.levels)")
+        }
     }
-    let sum = distances.reduce(0, +)
-    return sum
+    return validSequences
 }
 
 // Path to text file
