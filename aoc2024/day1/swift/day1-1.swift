@@ -50,7 +50,7 @@ func processData() -> Int {
 }
 
 // Path to text file
-let filePath = "res/input.txt"
+let filePath = "../res/input.txt"
 // let filePath = "res/sample-input.txt"
 
 // Call the function to read the file
