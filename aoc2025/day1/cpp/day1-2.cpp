@@ -19,6 +19,7 @@ int main() {
     char direction;
     int turns;
     int dial = 50;
+    int dialAfter = 50;
     int timesAtZero = 0;
 
     while (getline(f, line)) {
@@ -32,17 +33,26 @@ int main() {
         }
 
         if (direction == 'L') {
-            dial = (dial - turns + 100) % 100;
+            dialAfter = (dial - turns + 100) % 100;
+            if (dial > dialAfter) {
+                if (dialAfter <= 0) {
+                    timesAtZero++;
+                }
+            }
         } else if (direction == 'R') {
-            dial = (dial + turns) % 100;
+            dialAfter = (dial + turns) % 100;
+            if (dialAfter < dial) {
+                if (dialAfter <= 0) {
+                    timesAtZero++;
+                }
+            }
         } else {
             cerr << "Unknown direction: '" << direction << "'" << endl;
             continue;
         }
+        
 
-        if (dial == 0) {
-            timesAtZero++;
-        }
+        dial = dialAfter;
     }
 
     cout << "times at zero: " << timesAtZero << endl;
