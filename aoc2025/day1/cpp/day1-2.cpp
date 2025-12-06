@@ -32,6 +32,7 @@ int main() {
             continue;
         }
 
+
         if (direction == 'L') {
             dialAfter = (dial - turns + 100) % 100;
             if (dial > dialAfter) {
@@ -50,9 +51,11 @@ int main() {
             cerr << "Unknown direction: '" << direction << "'" << endl;
             continue;
         }
-        
 
         dial = dialAfter;
+
+        int rotations = turns / 100;
+        timesAtZero += rotations;
     }
 
     cout << "times at zero: " << timesAtZero << endl;
